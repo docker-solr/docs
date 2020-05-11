@@ -4,8 +4,6 @@ Solr is highly reliable, scalable and fault tolerant, providing distributed inde
 
 Learn more on [Apache Solr homepage](http://lucene.apache.org/solr/) and in the [Apache Solr Reference Guide](https://www.apache.org/dyn/closer.cgi/lucene/solr/ref-guide/).
 
-> [wikipedia.org/wiki/Apache_Solr](https://en.wikipedia.org/wiki/Apache_Solr)
-
 %%LOGO%%
 
 # How to use this Docker image
