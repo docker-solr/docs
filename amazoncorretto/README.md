@@ -14,21 +14,23 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`8`, `8u232`, `8-al2-full`, `latest`](https://github.com/corretto/corretto-8-docker/blob/36e50e6fec65b3b12fa4e595e8b8fa1def0b39f5/Dockerfile)
--	[`11`, `11.0.5`, `11-al2-full`](https://github.com/corretto/corretto-11-docker/blob/8a8fdf18ac8700a98bf8995cc85ec70616e5e130/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/corretto/corretto-8-docker/issues](https://github.com/corretto/corretto-8-docker/issues)
 
 -	**Maintained by**:  
 	[the AWS JDK team](https://github.com/corretto/corretto-8-docker)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`8`, `8u252`, `8-al2-full`, `latest`](https://github.com/corretto/corretto-8-docker/blob/a1e2c7e4fb1d00430b76963020aa2861bba7658f/Dockerfile)
+-	[`11`, `11.0.7`, `11-al2-full`](https://github.com/corretto/corretto-11-docker/blob/6ae94c922f550dfd3d9d08b04c10f6c114ee0e51/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/corretto/corretto-8-docker/issues](https://github.com/corretto/corretto-8-docker/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/amazoncorretto/), [`arm64v8`](https://hub.docker.com/r/arm64v8/amazoncorretto/)

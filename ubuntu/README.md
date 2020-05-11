@@ -14,24 +14,27 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`18.04`, `bionic-20191029`, `bionic`, `latest`](https://github.com/tianon/docker-brew-ubuntu-core/blob/7f7bea7f1fb44b7394681f5a0dabb7acab96f875/bionic/Dockerfile)
--	[`19.04`, `disco-20191030`, `disco`](https://github.com/tianon/docker-brew-ubuntu-core/blob/7f7bea7f1fb44b7394681f5a0dabb7acab96f875/disco/Dockerfile)
--	[`19.10`, `eoan-20191017`, `eoan`, `rolling`](https://github.com/tianon/docker-brew-ubuntu-core/blob/7f7bea7f1fb44b7394681f5a0dabb7acab96f875/eoan/Dockerfile)
--	[`20.04`, `focal-20191030`, `focal`, `devel`](https://github.com/tianon/docker-brew-ubuntu-core/blob/7f7bea7f1fb44b7394681f5a0dabb7acab96f875/focal/Dockerfile)
--	[`16.04`, `xenial-20191024`, `xenial`](https://github.com/tianon/docker-brew-ubuntu-core/blob/7f7bea7f1fb44b7394681f5a0dabb7acab96f875/xenial/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[the cloud-images bug tracker](https://bugs.launchpad.net/cloud-images) (include the `docker` tag)
 
 -	**Maintained by**:  
 	[Canonical](https://partner-images.canonical.com/core/) and [Tianon (Debian Developer)](https://github.com/tianon/docker-brew-ubuntu-core)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`18.04`, `bionic-20200403`, `bionic`](https://github.com/tianon/docker-brew-ubuntu-core/blob/451851eab04432157249eb444d5a42714e2a7112/bionic/Dockerfile)
+-	[`19.10`, `eoan-20200410`, `eoan`](https://github.com/tianon/docker-brew-ubuntu-core/blob/451851eab04432157249eb444d5a42714e2a7112/eoan/Dockerfile)
+-	[`20.04`, `focal-20200423`, `focal`, `latest`, `rolling`](https://github.com/tianon/docker-brew-ubuntu-core/blob/451851eab04432157249eb444d5a42714e2a7112/focal/Dockerfile)
+-	[`20.10`, `groovy-20200505`, `groovy`, `devel`](https://github.com/tianon/docker-brew-ubuntu-core/blob/451851eab04432157249eb444d5a42714e2a7112/groovy/Dockerfile)
+-	[`14.04`, `trusty-20191217`, `trusty`](https://github.com/tianon/docker-brew-ubuntu-core/blob/451851eab04432157249eb444d5a42714e2a7112/trusty/Dockerfile)
+-	[`16.04`, `xenial-20200326`, `xenial`](https://github.com/tianon/docker-brew-ubuntu-core/blob/451851eab04432157249eb444d5a42714e2a7112/xenial/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[the cloud-images bug tracker](https://bugs.launchpad.net/cloud-images) (include the `docker` tag)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/ubuntu/), [`arm32v7`](https://hub.docker.com/r/arm32v7/ubuntu/), [`arm64v8`](https://hub.docker.com/r/arm64v8/ubuntu/), [`i386`](https://hub.docker.com/r/i386/ubuntu/), [`ppc64le`](https://hub.docker.com/r/ppc64le/ubuntu/), [`s390x`](https://hub.docker.com/r/s390x/ubuntu/)
@@ -53,7 +56,7 @@ Ubuntu is a Debian-based Linux operating system that runs from the desktop to th
 
 Development of Ubuntu is led by Canonical Ltd. Canonical generates revenue through the sale of technical support and other services related to Ubuntu. The Ubuntu project is publicly committed to the principles of open-source software development; people are encouraged to use free software, study how it works, improve upon it, and distribute it.
 
-> [wikipedia.org/wiki/Ubuntu_(operating_system)](https://en.wikipedia.org/wiki/Ubuntu_%28operating_system%29)
+> [wikipedia.org/wiki/Ubuntu](https://en.wikipedia.org/wiki/Ubuntu)
 
 ![logo](https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/ubuntu/logo.png)
 

@@ -14,26 +14,24 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`5.2.0`, `5.2`, `5`, `latest`](https://github.com/plone/plone.docker/blob/163708ce4228e162647a3666937a86b72c8c0fc6/5.2/5.2.0/debian/Dockerfile)
--	[`5.2.0-alpine`, `5.2-alpine`, `5-alpine`, `alpine`](https://github.com/plone/plone.docker/blob/163708ce4228e162647a3666937a86b72c8c0fc6/5.2/5.2.0/alpine/Dockerfile)
--	[`5.2.0-python2`, `5.2-python2`, `5-python2`, `python2`](https://github.com/plone/plone.docker/blob/163708ce4228e162647a3666937a86b72c8c0fc6/5.2/5.2.0/python2/Dockerfile)
--	[`5.1.6`, `5.1`](https://github.com/plone/plone.docker/blob/163708ce4228e162647a3666937a86b72c8c0fc6/5.1/5.1.6/debian/Dockerfile)
--	[`5.1.6-alpine`, `5.1-alpine`](https://github.com/plone/plone.docker/blob/163708ce4228e162647a3666937a86b72c8c0fc6/5.1/5.1.6/alpine/Dockerfile)
--	[`4.3.19`, `4.3`, `4`](https://github.com/plone/plone.docker/blob/163708ce4228e162647a3666937a86b72c8c0fc6/4.3/4.3.19/debian/Dockerfile)
--	[`4.3.19-alpine`, `4.3-alpine`, `4-alpine`](https://github.com/plone/plone.docker/blob/163708ce4228e162647a3666937a86b72c8c0fc6/4.3/4.3.19/alpine/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/plone/plone.docker/issues](https://github.com/plone/plone.docker/issues)
 
 -	**Maintained by**:  
 	[Plone Community](https://github.com/plone/plone.docker)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`5.2.1`, `5.2`, `5`, `latest`](https://github.com/plone/plone.docker/blob/a346627b8e694036693d03f95d4986a3d6cb3111/5.2/5.2.1/debian/Dockerfile)
+-	[`5.2.1-alpine`, `5.2-alpine`, `5-alpine`, `alpine`](https://github.com/plone/plone.docker/blob/a346627b8e694036693d03f95d4986a3d6cb3111/5.2/5.2.1/alpine/Dockerfile)
+-	[`5.2.1-python2`, `5.2-python2`, `5-python2`, `python2`](https://github.com/plone/plone.docker/blob/5a3ed2cf8f0206bf710935c6daa527eb0e1056a4/5.2/5.2.1/python2/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/plone/plone.docker/issues](https://github.com/plone/plone.docker/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/plone/), [`arm32v5`](https://hub.docker.com/r/arm32v5/plone/), [`arm32v6`](https://hub.docker.com/r/arm32v6/plone/), [`arm32v7`](https://hub.docker.com/r/arm32v7/plone/), [`arm64v8`](https://hub.docker.com/r/arm64v8/plone/), [`i386`](https://hub.docker.com/r/i386/plone/), [`ppc64le`](https://hub.docker.com/r/ppc64le/plone/), [`s390x`](https://hub.docker.com/r/s390x/plone/)
@@ -115,25 +113,45 @@ The Plone image uses several environment variable that allow to specify a more s
 ### For Basic Usage
 
 -	`ADDONS` - Customize Plone via Plone add-ons using this environment variable
+-	`SITE` - Add Plone instance with this id to `Data.fs` on first run. If NOT provided, you'll have to manually add a Plone Site via web UI
 -	`ZEO_ADDRESS` - This environment variable allows you to run Plone image as a ZEO client.
+-	`VERSIONS` - Use specific versions of Plone Add-on or python libraries
 
-Run Plone with ZEO and install two addons (PloneFormGen and collective.roster)
+Run Plone and install two addons (eea.facetednavigation and collective.easyform)
 
 ```console
-$ docker run --name=instance1 --link=zeo -e ZEO_ADDRESS=zeo:8080 -p 8080:8080 \
--e ADDONS="Products.PloneFormGen collective.roster" plone
+$ docker run -p 8080:8080 -e SITE="mysite" -e ADDONS="eea.facetednavigation collective.easyform" plone
 ```
 
 To use specific add-ons versions:
 
 ```console
- -e ADDONS="Products.PloneFormGen==1.8.5 collective.roster==2.3.1"
+ -e ADDONS="eea.facetednavigation collective.easyform" \
+ -e VERSIONS="eea.facetednavigation=13.3 collective.easyform=2.1.0"
+```
+
+RestAPI:
+
+```console
+$ docker run -p 8080:8080 -e SITE=plone plone
+
+$ curl -H 'Accept: application/json' http://localhost:8080/plone
 ```
 
 ### For Advanced Usage
 
+**Plone:**
+
+-	`PLONE_ADDONS`, `ADDONS` - Customize Plone via Plone add-ons using this environment variable
+-	`PLONE_SITE`, `SITE` - Add Plone with this id to `Data.fs` on first run. If NOT provided, you'll have to manually add a Plone Site via web UI
+-	`PLONE_VERSIONS`, `VERSIONS` - Use specific versions of Plone Add-on or python libraries
+-	`PLONE_PROFILES, PROFILES` - GenericSetup profiles to include when `SITE` environment provided.
 -	`PLONE_ZCML`, `ZCML` - Include custom Plone add-ons ZCML files (former `BUILDOUT_ZCML`)
 -	`PLONE_DEVELOP`, `DEVELOP` - Develop new or existing Plone add-ons (former `BUILDOUT_DEVELOP`)
+
+**ZEO:**
+
+-	`ZEO_ADDRESS` - This environment variable allows you to run Plone image as a ZEO client.
 -	`ZEO_READ_ONLY` - Run Plone as a read-only ZEO client. Defaults to `off`.
 -	`ZEO_CLIENT_READ_ONLY_FALLBACK` - A flag indicating whether a read-only remote storage should be acceptable as a fallback when no writable storages are available. Defaults to `false`.
 -	`ZEO_SHARED_BLOB_DIR` - Set this to on if the ZEO server and the instance have access to the same directory. Defaults to `off`.
@@ -142,6 +160,15 @@ To use specific add-ons versions:
 -	`ZEO_PACK_KEEP_OLD` - Can be set to false to disable the creation of `*.fs.old` files before the pack is run. Defaults to true.
 -	`HEALTH_CHECK_TIMEOUT` - Time in seconds to wait until health check starts. Defaults to `1` second.
 -	`HEALTH_CHECK_INTERVAL` - Interval in seconds to check that the Zope application is still healthy. Defaults to `1` second.
+
+**CORS:**
+
+-	`CORS_ALLOW_ORIGIN` - Origins that are allowed access to the resource. Either a comma separated list of origins, e.g. `http://example.net,http://mydomain.com` or `*`. Defaults to `http://localhost:3000,http://127.0.0.1:3000`
+-	`CORS_ALLOW_METHODS` - A comma separated list of HTTP method names that are allowed by this CORS policy, e.g. `DELETE,GET,OPTIONS,PATCH,POST,PUT`. Defaults to `DELETE,GET,OPTIONS,PATCH,POST,PUT`
+-	`CORS_ALLOW_CREDENTIALS` - Indicates whether the resource supports user credentials in the request. Defaults to `true`
+-	`CORS_EXPOSE_HEADERS` - A comma separated list of response headers clients can access, e.g. `Content-Length,X-My-Header`. Defaults to `Content-Length,X-My-Header`
+-	`CORS_ALLOW_HEADERS` - A comma separated list of request headers allowed to be sent by the client, e.g. `X-My-Header`. Defaults to `Accept,Authorization,Content-Type,X-Custom-Header`
+-	`CORS_MAX_AGE` - Indicates how long the results of a preflight request can be cached. Defaults to `3600`
 
 ## Documentation
 

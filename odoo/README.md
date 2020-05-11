@@ -14,22 +14,24 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`13.0`, `13`, `latest`](https://github.com/odoo/docker/blob/596a7cabc07dd3b1d18b6c2832cace7328e36969/13.0/Dockerfile)
--	[`12.0`, `12`](https://github.com/odoo/docker/blob/596a7cabc07dd3b1d18b6c2832cace7328e36969/12.0/Dockerfile)
--	[`11.0`, `11`](https://github.com/odoo/docker/blob/596a7cabc07dd3b1d18b6c2832cace7328e36969/11.0/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/odoo/docker/issues](https://github.com/odoo/docker/issues)
 
 -	**Maintained by**:  
 	[Odoo](https://github.com/odoo/docker)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`13.0`, `13`, `latest`](https://github.com/odoo/docker/blob/f116a674ca62595d0fbf1ded206ec2e4d962ebf0/13.0/Dockerfile)
+-	[`12.0`, `12`](https://github.com/odoo/docker/blob/f116a674ca62595d0fbf1ded206ec2e4d962ebf0/12.0/Dockerfile)
+-	[`11.0`, `11`](https://github.com/odoo/docker/blob/f116a674ca62595d0fbf1ded206ec2e4d962ebf0/11.0/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/odoo/docker/issues](https://github.com/odoo/docker/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/odoo/)

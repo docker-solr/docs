@@ -14,24 +14,26 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`2.4.41`, `2.4`, `2`, `latest`](https://github.com/docker-library/httpd/blob/8da3138c7ad5973fbaae0e464a190d377d2b4219/2.4/Dockerfile)
--	[`2.4.41-alpine`, `2.4-alpine`, `2-alpine`, `alpine`](https://github.com/docker-library/httpd/blob/82fd968fb7cfe496a0f87888777e834530dd9154/2.4/alpine/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/docker-library/httpd/issues](https://github.com/docker-library/httpd/issues)
 
 -	**Maintained by**:  
 	[the Docker Community](https://github.com/docker-library/httpd)
 
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`2.4.43`, `2.4`, `2`, `latest`](https://github.com/docker-library/httpd/blob/6c8e82e20ecefc94c616439f15d14c4bb215b200/2.4/Dockerfile)
+-	[`2.4.43-alpine`, `2.4-alpine`, `2-alpine`, `alpine`](https://github.com/docker-library/httpd/blob/6c8e82e20ecefc94c616439f15d14c4bb215b200/2.4/alpine/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/docker-library/httpd/issues](https://github.com/docker-library/httpd/issues)
+
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
-	[`amd64`](https://hub.docker.com/r/amd64/httpd/), [`arm32v5`](https://hub.docker.com/r/arm32v5/httpd/), [`arm32v6`](https://hub.docker.com/r/arm32v6/httpd/), [`arm32v7`](https://hub.docker.com/r/arm32v7/httpd/), [`arm64v8`](https://hub.docker.com/r/arm64v8/httpd/), [`i386`](https://hub.docker.com/r/i386/httpd/), [`ppc64le`](https://hub.docker.com/r/ppc64le/httpd/), [`s390x`](https://hub.docker.com/r/s390x/httpd/)
+	[`amd64`](https://hub.docker.com/r/amd64/httpd/), [`arm32v5`](https://hub.docker.com/r/arm32v5/httpd/), [`arm32v6`](https://hub.docker.com/r/arm32v6/httpd/), [`arm32v7`](https://hub.docker.com/r/arm32v7/httpd/), [`arm64v8`](https://hub.docker.com/r/arm64v8/httpd/), [`i386`](https://hub.docker.com/r/i386/httpd/), [`mips64le`](https://hub.docker.com/r/mips64le/httpd/), [`ppc64le`](https://hub.docker.com/r/ppc64le/httpd/), [`s390x`](https://hub.docker.com/r/s390x/httpd/)
 
 -	**Published image artifact details**:  
 	[repo-info repo's `repos/httpd/` directory](https://github.com/docker-library/repo-info/blob/master/repos/httpd) ([history](https://github.com/docker-library/repo-info/commits/master/repos/httpd))  
@@ -82,7 +84,13 @@ $ docker run -dit --name my-apache-app -p 8080:80 -v "$PWD":/usr/local/apache2/h
 
 ### Configuration
 
-To customize the configuration of the httpd server, just `COPY` your custom configuration in as `/usr/local/apache2/conf/httpd.conf`.
+To customize the configuration of the httpd server, first obtain the upstream default configuration from the container:
+
+```console
+$ docker run --rm httpd:2.4 cat /usr/local/apache2/conf/httpd.conf > my-httpd.conf
+```
+
+You can then `COPY` your custom configuration in as `/usr/local/apache2/conf/httpd.conf`:
 
 ```dockerfile
 FROM httpd:2.4

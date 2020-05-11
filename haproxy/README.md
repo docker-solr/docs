@@ -14,34 +14,38 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`2.0.8`, `2.0`, `latest`](https://github.com/docker-library/haproxy/blob/3700abeba4834a27c43b16330cbaf1b8bae565cd/2.0/Dockerfile)
--	[`2.0.8-alpine`, `2.0-alpine`, `alpine`](https://github.com/docker-library/haproxy/blob/3700abeba4834a27c43b16330cbaf1b8bae565cd/2.0/alpine/Dockerfile)
--	[`1.9.12`, `1.9`, `1`](https://github.com/docker-library/haproxy/blob/bd6b8fd614e9359ebd1f4b27cfa38ae44d63c174/1.9/Dockerfile)
--	[`1.9.12-alpine`, `1.9-alpine`, `1-alpine`](https://github.com/docker-library/haproxy/blob/bd6b8fd614e9359ebd1f4b27cfa38ae44d63c174/1.9/alpine/Dockerfile)
--	[`1.8.22`, `1.8`](https://github.com/docker-library/haproxy/blob/9054c7c7dcc271f7bda910e240af66f00d6d43a0/1.8/Dockerfile)
--	[`1.8.22-alpine`, `1.8-alpine`](https://github.com/docker-library/haproxy/blob/9054c7c7dcc271f7bda910e240af66f00d6d43a0/1.8/alpine/Dockerfile)
--	[`1.7.12`, `1.7`](https://github.com/docker-library/haproxy/blob/14431e31ab981456585021f7dca35626c5e060c1/1.7/Dockerfile)
--	[`1.7.12-alpine`, `1.7-alpine`](https://github.com/docker-library/haproxy/blob/14431e31ab981456585021f7dca35626c5e060c1/1.7/alpine/Dockerfile)
--	[`1.6.15`, `1.6`](https://github.com/docker-library/haproxy/blob/4e917ff7cbc629b29af59d02057ceece8102e4e0/1.6/Dockerfile)
--	[`1.6.15-alpine`, `1.6-alpine`](https://github.com/docker-library/haproxy/blob/4e917ff7cbc629b29af59d02057ceece8102e4e0/1.6/alpine/Dockerfile)
--	[`1.5.19`, `1.5`](https://github.com/docker-library/haproxy/blob/d21ad4557dd2ea46cba1f05a75dcd39ee42c5c56/1.5/Dockerfile)
--	[`1.5.19-alpine`, `1.5-alpine`](https://github.com/docker-library/haproxy/blob/af7ea81960c11b73b8a328e65f97df62a389cd10/1.5/alpine/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/docker-library/haproxy/issues](https://github.com/docker-library/haproxy/issues)
 
 -	**Maintained by**:  
 	[the Docker Community](https://github.com/docker-library/haproxy)
 
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`2.2-dev7`, `2.2-rc`](https://github.com/docker-library/haproxy/blob/e5884936dca8ee8968522abff21713042983a898/2.2-rc/Dockerfile)
+-	[`2.2-dev7-alpine`, `2.2-rc-alpine`](https://github.com/docker-library/haproxy/blob/e5884936dca8ee8968522abff21713042983a898/2.2-rc/alpine/Dockerfile)
+-	[`2.1.4`, `2.1`, `latest`](https://github.com/docker-library/haproxy/blob/eeaaa570ccaeec6fa7e545b9314d6f246b6b283c/2.1/Dockerfile)
+-	[`2.1.4-alpine`, `2.1-alpine`, `alpine`](https://github.com/docker-library/haproxy/blob/bfa23c19cffdb4247474b2138feeeb14f48b7fe4/2.1/alpine/Dockerfile)
+-	[`2.0.14`, `2.0`](https://github.com/docker-library/haproxy/blob/eeaaa570ccaeec6fa7e545b9314d6f246b6b283c/2.0/Dockerfile)
+-	[`2.0.14-alpine`, `2.0-alpine`](https://github.com/docker-library/haproxy/blob/bfa23c19cffdb4247474b2138feeeb14f48b7fe4/2.0/alpine/Dockerfile)
+-	[`1.9.15`, `1.9`, `1`](https://github.com/docker-library/haproxy/blob/eeaaa570ccaeec6fa7e545b9314d6f246b6b283c/1.9/Dockerfile)
+-	[`1.9.15-alpine`, `1.9-alpine`, `1-alpine`](https://github.com/docker-library/haproxy/blob/bfa23c19cffdb4247474b2138feeeb14f48b7fe4/1.9/alpine/Dockerfile)
+-	[`1.8.25`, `1.8`](https://github.com/docker-library/haproxy/blob/eeaaa570ccaeec6fa7e545b9314d6f246b6b283c/1.8/Dockerfile)
+-	[`1.8.25-alpine`, `1.8-alpine`](https://github.com/docker-library/haproxy/blob/bfa23c19cffdb4247474b2138feeeb14f48b7fe4/1.8/alpine/Dockerfile)
+-	[`1.7.12`, `1.7`](https://github.com/docker-library/haproxy/blob/14431e31ab981456585021f7dca35626c5e060c1/1.7/Dockerfile)
+-	[`1.7.12-alpine`, `1.7-alpine`](https://github.com/docker-library/haproxy/blob/bfa23c19cffdb4247474b2138feeeb14f48b7fe4/1.7/alpine/Dockerfile)
+-	[`1.6.15`, `1.6`](https://github.com/docker-library/haproxy/blob/4e917ff7cbc629b29af59d02057ceece8102e4e0/1.6/Dockerfile)
+-	[`1.6.15-alpine`, `1.6-alpine`](https://github.com/docker-library/haproxy/blob/bfa23c19cffdb4247474b2138feeeb14f48b7fe4/1.6/alpine/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/docker-library/haproxy/issues](https://github.com/docker-library/haproxy/issues)
+
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
-	[`amd64`](https://hub.docker.com/r/amd64/haproxy/), [`arm32v5`](https://hub.docker.com/r/arm32v5/haproxy/), [`arm32v6`](https://hub.docker.com/r/arm32v6/haproxy/), [`arm32v7`](https://hub.docker.com/r/arm32v7/haproxy/), [`arm64v8`](https://hub.docker.com/r/arm64v8/haproxy/), [`i386`](https://hub.docker.com/r/i386/haproxy/), [`ppc64le`](https://hub.docker.com/r/ppc64le/haproxy/), [`s390x`](https://hub.docker.com/r/s390x/haproxy/)
+	[`amd64`](https://hub.docker.com/r/amd64/haproxy/), [`arm32v5`](https://hub.docker.com/r/arm32v5/haproxy/), [`arm32v6`](https://hub.docker.com/r/arm32v6/haproxy/), [`arm32v7`](https://hub.docker.com/r/arm32v7/haproxy/), [`arm64v8`](https://hub.docker.com/r/arm64v8/haproxy/), [`i386`](https://hub.docker.com/r/i386/haproxy/), [`mips64le`](https://hub.docker.com/r/mips64le/haproxy/), [`ppc64le`](https://hub.docker.com/r/ppc64le/haproxy/), [`s390x`](https://hub.docker.com/r/s390x/haproxy/)
 
 -	**Published image artifact details**:  
 	[repo-info repo's `repos/haproxy/` directory](https://github.com/docker-library/repo-info/blob/master/repos/haproxy) ([history](https://github.com/docker-library/repo-info/commits/master/repos/haproxy))  

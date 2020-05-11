@@ -14,50 +14,43 @@ WARNING:
 
 -->
 
+# Quick reference
+
+-	**Maintained by**:  
+	[the Docker Community](https://github.com/docker-library/julia)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
 # Supported tags and respective `Dockerfile` links
 
 (See ["What's the difference between 'Shared' and 'Simple' tags?" in the FAQ](https://github.com/docker-library/faq#whats-the-difference-between-shared-and-simple-tags).)
 
 ## Simple Tags
 
--	[`1.3.0-rc4-buster`, `1.3.0-buster`, `1.3-buster`, `1.3-rc-buster`](https://github.com/docker-library/julia/blob/b4e9903f90adf5d14655fe9c4bfa75d9db945b4d/1.3-rc/buster/Dockerfile)
--	[`1.3.0-rc4-stretch`, `1.3.0-stretch`, `1.3-stretch`, `1.3-rc-stretch`](https://github.com/docker-library/julia/blob/b4e9903f90adf5d14655fe9c4bfa75d9db945b4d/1.3-rc/stretch/Dockerfile)
--	[`1.3.0-rc4-windowsservercore-ltsc2016`, `1.3.0-windowsservercore-ltsc2016`, `1.3-windowsservercore-ltsc2016`, `1.3-rc-windowsservercore-ltsc2016`](https://github.com/docker-library/julia/blob/b4e9903f90adf5d14655fe9c4bfa75d9db945b4d/1.3-rc/windows/windowsservercore-ltsc2016/Dockerfile)
--	[`1.3.0-rc4-windowsservercore-1803`, `1.3.0-windowsservercore-1803`, `1.3-windowsservercore-1803`, `1.3-rc-windowsservercore-1803`](https://github.com/docker-library/julia/blob/b4e9903f90adf5d14655fe9c4bfa75d9db945b4d/1.3-rc/windows/windowsservercore-1803/Dockerfile)
--	[`1.2.0-buster`, `1.2-buster`, `1-buster`, `buster`](https://github.com/docker-library/julia/blob/5f637f20522f82f953c69318002820da70d2e3f9/1.2/buster/Dockerfile)
--	[`1.2.0-stretch`, `1.2-stretch`, `1-stretch`, `stretch`](https://github.com/docker-library/julia/blob/db1a7e6fad976b52043021c7c4716dba6a2ab03b/1.2/stretch/Dockerfile)
--	[`1.2.0-windowsservercore-ltsc2016`, `1.2-windowsservercore-ltsc2016`, `1-windowsservercore-ltsc2016`, `windowsservercore-ltsc2016`](https://github.com/docker-library/julia/blob/5f637f20522f82f953c69318002820da70d2e3f9/1.2/windows/windowsservercore-ltsc2016/Dockerfile)
--	[`1.2.0-windowsservercore-1803`, `1.2-windowsservercore-1803`, `1-windowsservercore-1803`, `windowsservercore-1803`](https://github.com/docker-library/julia/blob/5f637f20522f82f953c69318002820da70d2e3f9/1.2/windows/windowsservercore-1803/Dockerfile)
+-	[`1.4.1-buster`, `1.4-buster`, `1-buster`, `buster`](https://github.com/docker-library/julia/blob/35ec6b3efb79d22ae7812772d1defdf66bb8990e/1.4/buster/Dockerfile)
+-	[`1.4.1-windowsservercore-ltsc2016`, `1.4-windowsservercore-ltsc2016`, `1-windowsservercore-ltsc2016`, `windowsservercore-ltsc2016`](https://github.com/docker-library/julia/blob/35ec6b3efb79d22ae7812772d1defdf66bb8990e/1.4/windows/windowsservercore-ltsc2016/Dockerfile)
+-	[`1.4.1-windowsservercore-1809`, `1.4-windowsservercore-1809`, `1-windowsservercore-1809`, `windowsservercore-1809`](https://github.com/docker-library/julia/blob/35ec6b3efb79d22ae7812772d1defdf66bb8990e/1.4/windows/windowsservercore-1809/Dockerfile)
 -	[`1.0.5-buster`, `1.0-buster`](https://github.com/docker-library/julia/blob/4c770401df0b946da5cf61150bedb05280b218a6/1.0/buster/Dockerfile)
 -	[`1.0.5-stretch`, `1.0-stretch`](https://github.com/docker-library/julia/blob/4c770401df0b946da5cf61150bedb05280b218a6/1.0/stretch/Dockerfile)
--	[`1.0.5-windowsservercore-ltsc2016`, `1.0-windowsservercore-ltsc2016`](https://github.com/docker-library/julia/blob/4c770401df0b946da5cf61150bedb05280b218a6/1.0/windows/windowsservercore-ltsc2016/Dockerfile)
--	[`1.0.5-windowsservercore-1803`, `1.0-windowsservercore-1803`](https://github.com/docker-library/julia/blob/4c770401df0b946da5cf61150bedb05280b218a6/1.0/windows/windowsservercore-1803/Dockerfile)
+-	[`1.0.5-windowsservercore-ltsc2016`, `1.0-windowsservercore-ltsc2016`](https://github.com/docker-library/julia/blob/fc3c116c6fe19f870091df6843ed63a37f6c291b/1.0/windows/windowsservercore-ltsc2016/Dockerfile)
+-	[`1.0.5-windowsservercore-1809`, `1.0-windowsservercore-1809`](https://github.com/docker-library/julia/blob/fc3c116c6fe19f870091df6843ed63a37f6c291b/1.0/windows/windowsservercore-1809/Dockerfile)
 
 ## Shared Tags
 
--	`1.3.0-rc4`, `1.3.0`, `1.3`, `1.3-rc`:
-	-	[`1.3.0-rc4-buster`](https://github.com/docker-library/julia/blob/b4e9903f90adf5d14655fe9c4bfa75d9db945b4d/1.3-rc/buster/Dockerfile)
-	-	[`1.3.0-rc4-windowsservercore-ltsc2016`](https://github.com/docker-library/julia/blob/b4e9903f90adf5d14655fe9c4bfa75d9db945b4d/1.3-rc/windows/windowsservercore-ltsc2016/Dockerfile)
-	-	[`1.3.0-rc4-windowsservercore-1803`](https://github.com/docker-library/julia/blob/b4e9903f90adf5d14655fe9c4bfa75d9db945b4d/1.3-rc/windows/windowsservercore-1803/Dockerfile)
--	`1.2.0`, `1.2`, `1`, `latest`:
-	-	[`1.2.0-buster`](https://github.com/docker-library/julia/blob/5f637f20522f82f953c69318002820da70d2e3f9/1.2/buster/Dockerfile)
-	-	[`1.2.0-windowsservercore-ltsc2016`](https://github.com/docker-library/julia/blob/5f637f20522f82f953c69318002820da70d2e3f9/1.2/windows/windowsservercore-ltsc2016/Dockerfile)
-	-	[`1.2.0-windowsservercore-1803`](https://github.com/docker-library/julia/blob/5f637f20522f82f953c69318002820da70d2e3f9/1.2/windows/windowsservercore-1803/Dockerfile)
+-	`1.4.1`, `1.4`, `1`, `latest`:
+	-	[`1.4.1-buster`](https://github.com/docker-library/julia/blob/35ec6b3efb79d22ae7812772d1defdf66bb8990e/1.4/buster/Dockerfile)
+	-	[`1.4.1-windowsservercore-ltsc2016`](https://github.com/docker-library/julia/blob/35ec6b3efb79d22ae7812772d1defdf66bb8990e/1.4/windows/windowsservercore-ltsc2016/Dockerfile)
+	-	[`1.4.1-windowsservercore-1809`](https://github.com/docker-library/julia/blob/35ec6b3efb79d22ae7812772d1defdf66bb8990e/1.4/windows/windowsservercore-1809/Dockerfile)
 -	`1.0.5`, `1.0`:
 	-	[`1.0.5-buster`](https://github.com/docker-library/julia/blob/4c770401df0b946da5cf61150bedb05280b218a6/1.0/buster/Dockerfile)
-	-	[`1.0.5-windowsservercore-ltsc2016`](https://github.com/docker-library/julia/blob/4c770401df0b946da5cf61150bedb05280b218a6/1.0/windows/windowsservercore-ltsc2016/Dockerfile)
-	-	[`1.0.5-windowsservercore-1803`](https://github.com/docker-library/julia/blob/4c770401df0b946da5cf61150bedb05280b218a6/1.0/windows/windowsservercore-1803/Dockerfile)
+	-	[`1.0.5-windowsservercore-ltsc2016`](https://github.com/docker-library/julia/blob/fc3c116c6fe19f870091df6843ed63a37f6c291b/1.0/windows/windowsservercore-ltsc2016/Dockerfile)
+	-	[`1.0.5-windowsservercore-1809`](https://github.com/docker-library/julia/blob/fc3c116c6fe19f870091df6843ed63a37f6c291b/1.0/windows/windowsservercore-1809/Dockerfile)
 
-# Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+# Quick reference (cont.)
 
 -	**Where to file issues**:  
 	[https://github.com/docker-library/julia/issues](https://github.com/docker-library/julia/issues)
-
--	**Maintained by**:  
-	[the Docker Community](https://github.com/docker-library/julia)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/julia/), [`arm32v7`](https://hub.docker.com/r/arm32v7/julia/), [`arm64v8`](https://hub.docker.com/r/arm64v8/julia/), [`i386`](https://hub.docker.com/r/i386/julia/), [`windows-amd64`](https://hub.docker.com/r/winamd64/julia/)

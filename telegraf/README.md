@@ -14,25 +14,27 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`1.10`, `1.10.4`](https://github.com/influxdata/influxdata-docker/blob/9a797946ee535a38448d6e5ed9b24935f1c13abe/telegraf/1.10/Dockerfile)
--	[`1.10-alpine`, `1.10.4-alpine`](https://github.com/influxdata/influxdata-docker/blob/9a797946ee535a38448d6e5ed9b24935f1c13abe/telegraf/1.10/alpine/Dockerfile)
--	[`1.11`, `1.11.5`](https://github.com/influxdata/influxdata-docker/blob/9a797946ee535a38448d6e5ed9b24935f1c13abe/telegraf/1.11/Dockerfile)
--	[`1.11-alpine`, `1.11.5-alpine`](https://github.com/influxdata/influxdata-docker/blob/9a797946ee535a38448d6e5ed9b24935f1c13abe/telegraf/1.11/alpine/Dockerfile)
--	[`1.12`, `1.12.4`, `latest`](https://github.com/influxdata/influxdata-docker/blob/9a797946ee535a38448d6e5ed9b24935f1c13abe/telegraf/1.12/Dockerfile)
--	[`1.12-alpine`, `1.12.4-alpine`, `alpine`](https://github.com/influxdata/influxdata-docker/blob/9a797946ee535a38448d6e5ed9b24935f1c13abe/telegraf/1.12/alpine/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/influxdata/influxdata-docker/issues](https://github.com/influxdata/influxdata-docker/issues)
 
 -	**Maintained by**:  
 	[InfluxData](https://github.com/influxdata/influxdata-docker)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`1.12`, `1.12.6`](https://github.com/influxdata/influxdata-docker/blob/5cc9340e1111f1ca9b9781db4ce210b31b785b2d/telegraf/1.12/Dockerfile)
+-	[`1.12-alpine`, `1.12.6-alpine`](https://github.com/influxdata/influxdata-docker/blob/5cc9340e1111f1ca9b9781db4ce210b31b785b2d/telegraf/1.12/alpine/Dockerfile)
+-	[`1.13`, `1.13.4`](https://github.com/influxdata/influxdata-docker/blob/5cc9340e1111f1ca9b9781db4ce210b31b785b2d/telegraf/1.13/Dockerfile)
+-	[`1.13-alpine`, `1.13.4-alpine`](https://github.com/influxdata/influxdata-docker/blob/5cc9340e1111f1ca9b9781db4ce210b31b785b2d/telegraf/1.13/alpine/Dockerfile)
+-	[`1.14`, `1.14.2`, `latest`](https://github.com/influxdata/influxdata-docker/blob/5cc9340e1111f1ca9b9781db4ce210b31b785b2d/telegraf/1.14/Dockerfile)
+-	[`1.14-alpine`, `1.14.2-alpine`, `alpine`](https://github.com/influxdata/influxdata-docker/blob/5cc9340e1111f1ca9b9781db4ce210b31b785b2d/telegraf/1.14/alpine/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/influxdata/influxdata-docker/issues](https://github.com/influxdata/influxdata-docker/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/telegraf/), [`arm32v7`](https://hub.docker.com/r/arm32v7/telegraf/), [`arm64v8`](https://hub.docker.com/r/arm64v8/telegraf/)

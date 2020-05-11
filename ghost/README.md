@@ -14,25 +14,25 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`3.0.2`, `3.0`, `3`, `latest`](https://github.com/docker-library/ghost/blob/004e8733c7a085714662d1ca1db4df0cd8538dd1/3/debian/Dockerfile)
--	[`3.0.2-alpine`, `3.0-alpine`, `3-alpine`, `alpine`](https://github.com/docker-library/ghost/blob/004e8733c7a085714662d1ca1db4df0cd8538dd1/3/alpine/Dockerfile)
--	[`2.37.0`, `2.37`, `2`](https://github.com/docker-library/ghost/blob/0d101bc60192416fddbbbaefcea3b91959101664/2/debian/Dockerfile)
--	[`2.37.0-alpine`, `2.37-alpine`, `2-alpine`](https://github.com/docker-library/ghost/blob/0d101bc60192416fddbbbaefcea3b91959101664/2/alpine/Dockerfile)
--	[`1.26.0`, `1.26`, `1`](https://github.com/docker-library/ghost/blob/4f33b7574fecba14ca624d933e978a85e0ba0a15/1/debian/Dockerfile)
--	[`1.26.0-alpine`, `1.26-alpine`, `1-alpine`](https://github.com/docker-library/ghost/blob/4f33b7574fecba14ca624d933e978a85e0ba0a15/1/alpine/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/docker-library/ghost/issues](https://github.com/docker-library/ghost/issues)
 
 -	**Maintained by**:  
 	[the Docker Community](https://github.com/docker-library/ghost)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`3.15.1`, `3.15`, `3`, `latest`](https://github.com/docker-library/ghost/blob/165a7dc502db0e53d1eb314097902d83d40bfd92/3/debian/Dockerfile)
+-	[`3.15.1-alpine`, `3.15-alpine`, `3-alpine`, `alpine`](https://github.com/docker-library/ghost/blob/165a7dc502db0e53d1eb314097902d83d40bfd92/3/alpine/Dockerfile)
+-	[`2.38.1`, `2.38`, `2`](https://github.com/docker-library/ghost/blob/292aeadfdf5d428867c2b160268540aa4d4a04c5/2/debian/Dockerfile)
+-	[`2.38.1-alpine`, `2.38-alpine`, `2-alpine`](https://github.com/docker-library/ghost/blob/7555f792b28dbe01d521e7edbfc4af2c6824a3ff/2/alpine/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/docker-library/ghost/issues](https://github.com/docker-library/ghost/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/ghost/), [`arm32v6`](https://hub.docker.com/r/arm32v6/ghost/), [`arm32v7`](https://hub.docker.com/r/arm32v7/ghost/), [`arm64v8`](https://hub.docker.com/r/arm64v8/ghost/), [`i386`](https://hub.docker.com/r/i386/ghost/), [`ppc64le`](https://hub.docker.com/r/ppc64le/ghost/), [`s390x`](https://hub.docker.com/r/s390x/ghost/)
@@ -72,7 +72,7 @@ If you'd like to be able to access the instance from the host without the contai
 $ docker run -d --name some-ghost -e url=http://localhost:3001 -p 3001:2368 ghost
 ```
 
-Then, access it via `http://localhost:3001` or `http://host-ip:3001` in a browser.
+If all goes well, you'll be able to access your new site on `http://localhost:3001` and `http://localhost:3001/ghost` to access Ghost Admin (or `http://host-ip:3001` and `http://host-ip:3001/ghost`, respectively).
 
 ### Upgrading Ghost
 

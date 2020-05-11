@@ -14,23 +14,25 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`2.0.20191016.0`, `2`, `latest`](https://github.com/amazonlinux/container-images/blob/915e49b7f8172c134623ea7181b511fddec9a819/Dockerfile)
--	[`2.0.20191016.0-with-sources`, `2-with-sources`, `with-sources`](https://github.com/amazonlinux/container-images/blob/f09f12331dc25c7e1e3669585db74e477a0b762e/Dockerfile)
--	[`2018.03.0.20191014.0`, `2018.03`, `1`](https://github.com/amazonlinux/container-images/blob/566b99a65831000e6ae8856d98e8d8e68741871f/Dockerfile)
--	[`2018.03.0.20191014.0-with-sources`, `2018.03-with-sources`, `1-with-sources`](https://github.com/amazonlinux/container-images/blob/bd732e6748bed4ef08ca1dcf759b676659e0ff44/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[the Amazon Linux forums](https://forums.aws.amazon.com/forum.jspa?forumID=228)
 
 -	**Maintained by**:  
 	[the Amazon Linux Team](https://github.com/aws/amazon-linux-docker-images)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`2.0.20200406.0`, `2`, `latest`](https://github.com/amazonlinux/container-images/blob/92466cbdf8600e425701459dba31a31aa53415e7/Dockerfile)
+-	[`2.0.20200406.0-with-sources`, `2-with-sources`, `with-sources`](https://github.com/amazonlinux/container-images/blob/d686ee33d867fddd67595fb5d0df581b23ebfdfe/Dockerfile)
+-	[`2018.03.0.20200318.1`, `2018.03`, `1`](https://github.com/amazonlinux/container-images/blob/3209338a28f4fa5f0a189e517c0809d095c777d8/Dockerfile)
+-	[`2018.03.0.20200318.1-with-sources`, `2018.03-with-sources`, `1-with-sources`](https://github.com/amazonlinux/container-images/blob/4f52cd2aa92456ef8f867fb6fa8ac63aab2d462f/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[the Amazon Linux forums](https://forums.aws.amazon.com/forum.jspa?forumID=228)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/amazonlinux/), [`arm64v8`](https://hub.docker.com/r/arm64v8/amazonlinux/)

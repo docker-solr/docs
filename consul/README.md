@@ -14,9 +14,18 @@ WARNING:
 
 -->
 
+# Quick reference
+
+-	**Maintained by**:  
+	[HashiCorp](https://github.com/hashicorp/docker-consul)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
 # Supported tags and respective `Dockerfile` links
 
--	[`1.6.1`, `1.6`, `latest`](https://github.com/hashicorp/docker-consul/blob/b29407b8716fba0c5781f6c6800bf46ef3700cf7/0.X/Dockerfile)
+-	[`1.7.3`, `1.7`, `latest`](https://github.com/hashicorp/docker-consul/blob/9cb67358af03c73222da3badebc7c69d765c456a/0.X/Dockerfile)
+-	[`1.6.4`, `1.6`](https://github.com/hashicorp/docker-consul/blob/59bdf0ae8863e3166aadc81e18f8781a52a07136/0.X/Dockerfile)
 -	[`1.5.3`, `1.5`](https://github.com/hashicorp/docker-consul/blob/9d0aaa3caf747a7022969bcaaff3399fe34efc9c/0.X/Dockerfile)
 -	[`1.4.5`, `1.4`](https://github.com/hashicorp/docker-consul/blob/6294b73920ab700f9b38104f4de0ffe083e462e5/0.X/Dockerfile)
 -	[`1.3.1`, `1.3`](https://github.com/hashicorp/docker-consul/blob/9591d8392246c015dfee642f2634237ff791354a/0.X/Dockerfile)
@@ -25,16 +34,10 @@ WARNING:
 -	[`1.0.8`, `1.0`](https://github.com/hashicorp/docker-consul/blob/fdad25d89f87b89c7f39c2cd3223f01fbde74ffc/0.X/Dockerfile)
 -	[`0.9.4`, `0.9`](https://github.com/hashicorp/docker-consul/blob/dbc28ad074f219b1a5c277491d18f2e5244937c5/0.X/Dockerfile)
 
-# Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+# Quick reference (cont.)
 
 -	**Where to file issues**:  
 	[https://github.com/hashicorp/docker-consul/issues](https://github.com/hashicorp/docker-consul/issues)
-
--	**Maintained by**:  
-	[HashiCorp](https://github.com/hashicorp/docker-consul)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/consul/), [`arm32v6`](https://hub.docker.com/r/arm32v6/consul/), [`arm64v8`](https://hub.docker.com/r/arm64v8/consul/), [`i386`](https://hub.docker.com/r/i386/consul/)

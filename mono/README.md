@@ -14,25 +14,27 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`6.4.0.198`, `latest`, `6.4.0`, `6.4`, `6`](https://github.com/mono/docker/blob/1d31220a290b2b4d19654a8cdb4ba13888e29717/6.4.0.198/Dockerfile)
--	[`6.4.0.198-slim`, `slim`, `6.4.0-slim`, `6.4-slim`, `6-slim`](https://github.com/mono/docker/blob/1d31220a290b2b4d19654a8cdb4ba13888e29717/6.4.0.198/slim/Dockerfile)
--	[`6.0.0.334`, `6.0.0`, `6.0`](https://github.com/mono/docker/blob/1d31220a290b2b4d19654a8cdb4ba13888e29717/6.0.0.334/Dockerfile)
--	[`6.0.0.334-slim`, `6.0.0-slim`, `6.0-slim`](https://github.com/mono/docker/blob/1d31220a290b2b4d19654a8cdb4ba13888e29717/6.0.0.334/slim/Dockerfile)
--	[`5.20.1.34`, `5.20.1`, `5.20`, `5`](https://github.com/mono/docker/blob/c47c852008be6934ac650f282c18c70f2cfec72f/5.20.1.34/Dockerfile)
--	[`5.20.1.34-slim`, `5.20.1-slim`, `5.20-slim`, `5-slim`](https://github.com/mono/docker/blob/c47c852008be6934ac650f282c18c70f2cfec72f/5.20.1.34/slim/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/mono/docker/issues](https://github.com/mono/docker/issues)
 
 -	**Maintained by**:  
 	[the Mono Project](https://github.com/mono/docker)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`6.8.0.96`, `latest`, `6.8.0`, `6.8`, `6`](https://github.com/mono/docker/blob/65ca4c1ec4349dd187997f216d1fdcbfcb46b38a/6.8.0.96/Dockerfile)
+-	[`6.8.0.96-slim`, `slim`, `6.8.0-slim`, `6.8-slim`, `6-slim`](https://github.com/mono/docker/blob/65ca4c1ec4349dd187997f216d1fdcbfcb46b38a/6.8.0.96/slim/Dockerfile)
+-	[`6.6.0.161`, `6.6.0`, `6.6`](https://github.com/mono/docker/blob/4374af564e9ffd69f526135fb78c148d0a03012a/6.6.0.161/Dockerfile)
+-	[`6.6.0.161-slim`, `6.6.0-slim`, `6.6-slim`](https://github.com/mono/docker/blob/4374af564e9ffd69f526135fb78c148d0a03012a/6.6.0.161/slim/Dockerfile)
+-	[`5.20.1.34`, `5.20.1`, `5.20`, `5`](https://github.com/mono/docker/blob/c47c852008be6934ac650f282c18c70f2cfec72f/5.20.1.34/Dockerfile)
+-	[`5.20.1.34-slim`, `5.20.1-slim`, `5.20-slim`, `5-slim`](https://github.com/mono/docker/blob/c47c852008be6934ac650f282c18c70f2cfec72f/5.20.1.34/slim/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/mono/docker/issues](https://github.com/mono/docker/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/mono/), [`arm32v5`](https://hub.docker.com/r/arm32v5/mono/), [`arm32v7`](https://hub.docker.com/r/arm32v7/mono/), [`arm64v8`](https://hub.docker.com/r/arm64v8/mono/), [`i386`](https://hub.docker.com/r/i386/mono/), [`ppc64le`](https://hub.docker.com/r/ppc64le/mono/)

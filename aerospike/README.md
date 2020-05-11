@@ -14,22 +14,24 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`4.5.3.7`](https://github.com/aerospike/aerospike-server.docker/blob/9c2fab8e85800b2e9b39c5d0023c4aa9fc987947/Dockerfile)
--	[`4.6.0.5`](https://github.com/aerospike/aerospike-server.docker/blob/1b192dd881942ba10fb836a13391dcc1aeb7a57f/Dockerfile)
--	[`4.7.0.2`, `latest`](https://github.com/aerospike/aerospike-server.docker/blob/a72938e21e9e23342405292f585a45109c42ab03/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[the Aerospike Forums](https://discuss.aerospike.com) or [GitHub](https://github.com/aerospike/aerospike-server.docker/issues)
 
 -	**Maintained by**:  
 	[Aerospike, Inc.](https://github.com/aerospike/aerospike-server.docker)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`4.7.0.13`](https://github.com/aerospike/aerospike-server.docker/blob/3b57827b1541a0469598231fd491d43f860f0a2a/Dockerfile)
+-	[`4.8.0.9`](https://github.com/aerospike/aerospike-server.docker/blob/b30a98d9b80357fd50ac3fa254a7f11ca1ebbb67/Dockerfile)
+-	[`4.9.0.5`, `latest`](https://github.com/aerospike/aerospike-server.docker/blob/05d3d39c6ed93f3b01f756634333d23625276eb1/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[the Aerospike Forums](https://discuss.aerospike.com) or [GitHub](https://github.com/aerospike/aerospike-server.docker/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/aerospike/)

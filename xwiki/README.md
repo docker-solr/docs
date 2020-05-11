@@ -14,23 +14,25 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`10`, `10.11`, `10.11.9`, `10-mysql-tomcat`, `mysql-tomcat`, `lts-mysql-tomcat`, `lts-mysql`, `lts`](https://github.com/xwiki-contrib/docker-xwiki/blob/1642b75fa5a3f51306e7a385d07f7d28fd822c18/10/mysql-tomcat/Dockerfile)
--	[`10-postgres-tomcat`, `10.11-postgres-tomcat`, `10.11.9-postgres-tomcat`, `postgres-tomcat`, `lts-postgres-tomcat`, `lts-postgres`](https://github.com/xwiki-contrib/docker-xwiki/blob/1642b75fa5a3f51306e7a385d07f7d28fd822c18/10/postgres-tomcat/Dockerfile)
--	[`11`, `11.9`, `11-mysql-tomcat`, `11.9-mysql-tomcat`, `stable-mysql-tomcat`, `stable-mysql`, `stable`, `latest`](https://github.com/xwiki-contrib/docker-xwiki/blob/65ced309022ade77705bd3578641f2a00b7a22d9/11/mysql-tomcat/Dockerfile)
--	[`11-postgres-tomcat`, `11.9-postgres-tomcat`, `stable-postgres-tomcat`, `stable-postgres`](https://github.com/xwiki-contrib/docker-xwiki/blob/65ced309022ade77705bd3578641f2a00b7a22d9/11/postgres-tomcat/Dockerfile)
-
 # Quick reference
+
+-	**Maintained by**:  
+	[the XWiki Community](https://github.com/xwiki-contrib/docker-xwiki)
 
 -	**Where to get help**:  
 	[the XWiki Users Mailing List/Forum](http://dev.xwiki.org/xwiki/bin/view/Community/MailingLists) or [the XWiki IRC channel](http://dev.xwiki.org/xwiki/bin/view/Community/IRC)
 
+# Supported tags and respective `Dockerfile` links
+
+-	[`11`, `11.10`, `11.10.4`, `11-mysql-tomcat`, `11.10-mysql-tomcat`, `11.10.4-mysql-tomcat`, `lts-mysql-tomcat`, `lts-mysql`, `lts`](https://github.com/xwiki-contrib/docker-xwiki/blob/cab959829bd94668a5a6624aa370eb42e8a7c2b1/11/mysql-tomcat/Dockerfile)
+-	[`11-postgres-tomcat`, `11.10-postgres-tomcat`, `11.10.4-postgres-tomcat`, `lts-postgres-tomcat`, `lts-postgres`](https://github.com/xwiki-contrib/docker-xwiki/blob/cab959829bd94668a5a6624aa370eb42e8a7c2b1/11/postgres-tomcat/Dockerfile)
+-	[`12`, `12.3`, `12-mysql-tomcat`, `12.3-mysql-tomcat`, `mysql-tomcat`, `stable-mysql-tomcat`, `stable-mysql`, `stable`, `latest`](https://github.com/xwiki-contrib/docker-xwiki/blob/ebb23e6def6d52dc5dc79bb5844f71f68aba0728/12/mysql-tomcat/Dockerfile)
+-	[`12-postgres-tomcat`, `12.3-postgres-tomcat`, `postgres-tomcat`, `stable-postgres-tomcat`, `stable-postgres`](https://github.com/xwiki-contrib/docker-xwiki/blob/ebb23e6def6d52dc5dc79bb5844f71f68aba0728/12/postgres-tomcat/Dockerfile)
+
+# Quick reference (cont.)
+
 -	**Where to file issues**:  
 	[the XWiki Docker JIRA project](http://jira.xwiki.org/browse/XDOCKER)
-
--	**Maintained by**:  
-	[the XWiki Community](https://github.com/xwiki-contrib/docker-xwiki)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/xwiki/), [`arm64v8`](https://hub.docker.com/r/arm64v8/xwiki/)

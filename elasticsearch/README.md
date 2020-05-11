@@ -14,21 +14,23 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`7.4.2`](https://github.com/docker-library/elasticsearch/blob/d2a9208235faa0165bd03dad612e897bdbcf09fc/7/Dockerfile)
--	[`6.8.4`](https://github.com/docker-library/elasticsearch/blob/e309ccfb55a07ca50617d42c49202f1b58e65aae/6/Dockerfile)
-
 # Quick reference
+
+-	**Maintained by**:  
+	[the Elastic Team](https://github.com/elastic/elasticsearch)
 
 -	**Where to get help**:  
 	the [Elasticsearch Discuss Forums](https://discuss.elastic.co/c/elasticsearch), the [Elastic community](https://www.elastic.co/community)
 
+# Supported tags and respective `Dockerfile` links
+
+-	[`7.6.2`](https://github.com/docker-library/elasticsearch/blob/323a9028774ff18e1e3b1d0304bdd55edc88ab80/7/Dockerfile)
+-	[`6.8.8`](https://github.com/docker-library/elasticsearch/blob/79420fbf8e7f263bc25b4ff7c592240129ecb180/6/Dockerfile)
+
+# Quick reference (cont.)
+
 -	**Where to file issues**:  
 	For issues with Elasticsearch Docker Image or Elasticsearch: https://github.com/elastic/elasticsearch/issues
-
--	**Maintained by**:  
-	[the Elastic Team](https://github.com/elastic/elasticsearch)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/elasticsearch/)
@@ -68,7 +70,7 @@ For Elasticsearch versions prior to 6.4.0 a full list of images, tags, and docum
 
 For full Elasticsearch documentation see [here](https://www.elastic.co/guide/en/elasticsearch/reference/index.html).
 
-**The commands below are intended for deploying in a development context only. For production installation and configuration, see [Install Elasticsearch with Docker](https://www.elastic.co/guide/en/elasticsearch/reference/6.4/docker.html).**
+**The commands below are intended for deploying in a development context only. For production installation and configuration, see [Install Elasticsearch with Docker](https://www.elastic.co/guide/en/elasticsearch/reference/7.5/docker.html).**
 
 ## Running in Development Mode
 
@@ -86,7 +88,7 @@ $ docker run -d --name elasticsearch --net somenetwork -p 9200:9200 -p 9300:9300
 
 ## Running in Production Mode
 
-See [Install Elasticsearch with Docker](https://www.elastic.co/guide/en/elasticsearch/reference/6.x/docker.html)
+See [Install Elasticsearch with Docker](https://www.elastic.co/guide/en/elasticsearch/reference/7.5/docker.html)
 
 # License
 

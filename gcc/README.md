@@ -14,26 +14,27 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`6.5.0`, `6.5`, `6`](https://github.com/docker-library/gcc/blob/e17fd3097b743216f292e50ea8e84b3b3bcc4e53/6/Dockerfile)
--	[`7.4.0`, `7.4`, `7`](https://github.com/docker-library/gcc/blob/035d5baa91016103e8f5231b6d589054381b0f55/7/Dockerfile)
--	[`8.3.0`, `8.3`, `8`](https://github.com/docker-library/gcc/blob/035d5baa91016103e8f5231b6d589054381b0f55/8/Dockerfile)
--	[`9.2.0`, `9.2`, `9`, `latest`](https://github.com/docker-library/gcc/blob/65cee66f798434200d4efd651d97b4427bb82570/9/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/docker-library/gcc/issues](https://github.com/docker-library/gcc/issues)
 
 -	**Maintained by**:  
 	[the Docker Community](https://github.com/docker-library/gcc)
 
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`10.1.0`, `10.1`, `10`, `latest`](https://github.com/docker-library/gcc/blob/97b046b578bd86cae5414d80b3ad0027c590aebd/10/Dockerfile)
+-	[`9.3.0`, `9.3`, `9`](https://github.com/docker-library/gcc/blob/05aef2fc627328e12bbf77aca44fd399a22c7fc4/9/Dockerfile)
+-	[`8.4.0`, `8.4`, `8`](https://github.com/docker-library/gcc/blob/05aef2fc627328e12bbf77aca44fd399a22c7fc4/8/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/docker-library/gcc/issues](https://github.com/docker-library/gcc/issues)
+
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
-	[`amd64`](https://hub.docker.com/r/amd64/gcc/), [`arm32v5`](https://hub.docker.com/r/arm32v5/gcc/), [`arm32v7`](https://hub.docker.com/r/arm32v7/gcc/), [`arm64v8`](https://hub.docker.com/r/arm64v8/gcc/), [`ppc64le`](https://hub.docker.com/r/ppc64le/gcc/), [`s390x`](https://hub.docker.com/r/s390x/gcc/)
+	[`amd64`](https://hub.docker.com/r/amd64/gcc/), [`arm32v5`](https://hub.docker.com/r/arm32v5/gcc/), [`arm32v7`](https://hub.docker.com/r/arm32v7/gcc/), [`arm64v8`](https://hub.docker.com/r/arm64v8/gcc/), [`mips64le`](https://hub.docker.com/r/mips64le/gcc/), [`ppc64le`](https://hub.docker.com/r/ppc64le/gcc/), [`s390x`](https://hub.docker.com/r/s390x/gcc/)
 
 -	**Published image artifact details**:  
 	[repo-info repo's `repos/gcc/` directory](https://github.com/docker-library/repo-info/blob/master/repos/gcc) ([history](https://github.com/docker-library/repo-info/commits/master/repos/gcc))  

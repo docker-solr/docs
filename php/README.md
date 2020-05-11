@@ -14,71 +14,62 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`7.4.0RC5-cli-buster`, `7.4-rc-cli-buster`, `rc-cli-buster`, `7.4.0RC5-buster`, `7.4-rc-buster`, `rc-buster`, `7.4.0RC5-cli`, `7.4-rc-cli`, `rc-cli`, `7.4.0RC5`, `7.4-rc`, `rc`](https://github.com/docker-library/php/blob/b91cbb666a1a6567226b85d9e43b8b685d47e5bd/7.4-rc/buster/cli/Dockerfile)
--	[`7.4.0RC5-apache-buster`, `7.4-rc-apache-buster`, `rc-apache-buster`, `7.4.0RC5-apache`, `7.4-rc-apache`, `rc-apache`](https://github.com/docker-library/php/blob/b91cbb666a1a6567226b85d9e43b8b685d47e5bd/7.4-rc/buster/apache/Dockerfile)
--	[`7.4.0RC5-fpm-buster`, `7.4-rc-fpm-buster`, `rc-fpm-buster`, `7.4.0RC5-fpm`, `7.4-rc-fpm`, `rc-fpm`](https://github.com/docker-library/php/blob/b91cbb666a1a6567226b85d9e43b8b685d47e5bd/7.4-rc/buster/fpm/Dockerfile)
--	[`7.4.0RC5-zts-buster`, `7.4-rc-zts-buster`, `rc-zts-buster`, `7.4.0RC5-zts`, `7.4-rc-zts`, `rc-zts`](https://github.com/docker-library/php/blob/b91cbb666a1a6567226b85d9e43b8b685d47e5bd/7.4-rc/buster/zts/Dockerfile)
--	[`7.4.0RC5-cli-alpine3.10`, `7.4-rc-cli-alpine3.10`, `rc-cli-alpine3.10`, `7.4.0RC5-alpine3.10`, `7.4-rc-alpine3.10`, `rc-alpine3.10`, `7.4.0RC5-cli-alpine`, `7.4-rc-cli-alpine`, `rc-cli-alpine`, `7.4.0RC5-alpine`, `7.4-rc-alpine`, `rc-alpine`](https://github.com/docker-library/php/blob/b91cbb666a1a6567226b85d9e43b8b685d47e5bd/7.4-rc/alpine3.10/cli/Dockerfile)
--	[`7.4.0RC5-fpm-alpine3.10`, `7.4-rc-fpm-alpine3.10`, `rc-fpm-alpine3.10`, `7.4.0RC5-fpm-alpine`, `7.4-rc-fpm-alpine`, `rc-fpm-alpine`](https://github.com/docker-library/php/blob/b91cbb666a1a6567226b85d9e43b8b685d47e5bd/7.4-rc/alpine3.10/fpm/Dockerfile)
--	[`7.4.0RC5-zts-alpine3.10`, `7.4-rc-zts-alpine3.10`, `rc-zts-alpine3.10`, `7.4.0RC5-zts-alpine`, `7.4-rc-zts-alpine`, `rc-zts-alpine`](https://github.com/docker-library/php/blob/b91cbb666a1a6567226b85d9e43b8b685d47e5bd/7.4-rc/alpine3.10/zts/Dockerfile)
--	[`7.3.11-cli-buster`, `7.3-cli-buster`, `7-cli-buster`, `cli-buster`, `7.3.11-buster`, `7.3-buster`, `7-buster`, `buster`, `7.3.11-cli`, `7.3-cli`, `7-cli`, `cli`, `7.3.11`, `7.3`, `7`, `latest`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/buster/cli/Dockerfile)
--	[`7.3.11-apache-buster`, `7.3-apache-buster`, `7-apache-buster`, `apache-buster`, `7.3.11-apache`, `7.3-apache`, `7-apache`, `apache`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/buster/apache/Dockerfile)
--	[`7.3.11-fpm-buster`, `7.3-fpm-buster`, `7-fpm-buster`, `fpm-buster`, `7.3.11-fpm`, `7.3-fpm`, `7-fpm`, `fpm`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/buster/fpm/Dockerfile)
--	[`7.3.11-zts-buster`, `7.3-zts-buster`, `7-zts-buster`, `zts-buster`, `7.3.11-zts`, `7.3-zts`, `7-zts`, `zts`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/buster/zts/Dockerfile)
--	[`7.3.11-cli-stretch`, `7.3-cli-stretch`, `7-cli-stretch`, `cli-stretch`, `7.3.11-stretch`, `7.3-stretch`, `7-stretch`, `stretch`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/stretch/cli/Dockerfile)
--	[`7.3.11-apache-stretch`, `7.3-apache-stretch`, `7-apache-stretch`, `apache-stretch`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/stretch/apache/Dockerfile)
--	[`7.3.11-fpm-stretch`, `7.3-fpm-stretch`, `7-fpm-stretch`, `fpm-stretch`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/stretch/fpm/Dockerfile)
--	[`7.3.11-zts-stretch`, `7.3-zts-stretch`, `7-zts-stretch`, `zts-stretch`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/stretch/zts/Dockerfile)
--	[`7.3.11-cli-alpine3.10`, `7.3-cli-alpine3.10`, `7-cli-alpine3.10`, `cli-alpine3.10`, `7.3.11-alpine3.10`, `7.3-alpine3.10`, `7-alpine3.10`, `alpine3.10`, `7.3.11-cli-alpine`, `7.3-cli-alpine`, `7-cli-alpine`, `cli-alpine`, `7.3.11-alpine`, `7.3-alpine`, `7-alpine`, `alpine`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/alpine3.10/cli/Dockerfile)
--	[`7.3.11-fpm-alpine3.10`, `7.3-fpm-alpine3.10`, `7-fpm-alpine3.10`, `fpm-alpine3.10`, `7.3.11-fpm-alpine`, `7.3-fpm-alpine`, `7-fpm-alpine`, `fpm-alpine`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/alpine3.10/fpm/Dockerfile)
--	[`7.3.11-zts-alpine3.10`, `7.3-zts-alpine3.10`, `7-zts-alpine3.10`, `zts-alpine3.10`, `7.3.11-zts-alpine`, `7.3-zts-alpine`, `7-zts-alpine`, `zts-alpine`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/alpine3.10/zts/Dockerfile)
--	[`7.3.11-cli-alpine3.9`, `7.3-cli-alpine3.9`, `7-cli-alpine3.9`, `cli-alpine3.9`, `7.3.11-alpine3.9`, `7.3-alpine3.9`, `7-alpine3.9`, `alpine3.9`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/alpine3.9/cli/Dockerfile)
--	[`7.3.11-fpm-alpine3.9`, `7.3-fpm-alpine3.9`, `7-fpm-alpine3.9`, `fpm-alpine3.9`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/alpine3.9/fpm/Dockerfile)
--	[`7.3.11-zts-alpine3.9`, `7.3-zts-alpine3.9`, `7-zts-alpine3.9`, `zts-alpine3.9`](https://github.com/docker-library/php/blob/7af4c6ecfb6a73a9351709ee16b2ba6d15ddd506/7.3/alpine3.9/zts/Dockerfile)
--	[`7.2.24-cli-buster`, `7.2-cli-buster`, `7.2.24-buster`, `7.2-buster`, `7.2.24-cli`, `7.2-cli`, `7.2.24`, `7.2`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/buster/cli/Dockerfile)
--	[`7.2.24-apache-buster`, `7.2-apache-buster`, `7.2.24-apache`, `7.2-apache`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/buster/apache/Dockerfile)
--	[`7.2.24-fpm-buster`, `7.2-fpm-buster`, `7.2.24-fpm`, `7.2-fpm`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/buster/fpm/Dockerfile)
--	[`7.2.24-zts-buster`, `7.2-zts-buster`, `7.2.24-zts`, `7.2-zts`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/buster/zts/Dockerfile)
--	[`7.2.24-cli-stretch`, `7.2-cli-stretch`, `7.2.24-stretch`, `7.2-stretch`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/stretch/cli/Dockerfile)
--	[`7.2.24-apache-stretch`, `7.2-apache-stretch`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/stretch/apache/Dockerfile)
--	[`7.2.24-fpm-stretch`, `7.2-fpm-stretch`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/stretch/fpm/Dockerfile)
--	[`7.2.24-zts-stretch`, `7.2-zts-stretch`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/stretch/zts/Dockerfile)
--	[`7.2.24-cli-alpine3.10`, `7.2-cli-alpine3.10`, `7.2.24-alpine3.10`, `7.2-alpine3.10`, `7.2.24-cli-alpine`, `7.2-cli-alpine`, `7.2.24-alpine`, `7.2-alpine`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/alpine3.10/cli/Dockerfile)
--	[`7.2.24-fpm-alpine3.10`, `7.2-fpm-alpine3.10`, `7.2.24-fpm-alpine`, `7.2-fpm-alpine`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/alpine3.10/fpm/Dockerfile)
--	[`7.2.24-zts-alpine3.10`, `7.2-zts-alpine3.10`, `7.2.24-zts-alpine`, `7.2-zts-alpine`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/alpine3.10/zts/Dockerfile)
--	[`7.2.24-cli-alpine3.9`, `7.2-cli-alpine3.9`, `7.2.24-alpine3.9`, `7.2-alpine3.9`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/alpine3.9/cli/Dockerfile)
--	[`7.2.24-fpm-alpine3.9`, `7.2-fpm-alpine3.9`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/alpine3.9/fpm/Dockerfile)
--	[`7.2.24-zts-alpine3.9`, `7.2-zts-alpine3.9`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/alpine3.9/zts/Dockerfile)
--	[`7.1.33-cli-buster`, `7.1-cli-buster`, `7.1.33-buster`, `7.1-buster`, `7.1.33-cli`, `7.1-cli`, `7.1.33`, `7.1`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/buster/cli/Dockerfile)
--	[`7.1.33-apache-buster`, `7.1-apache-buster`, `7.1.33-apache`, `7.1-apache`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/buster/apache/Dockerfile)
--	[`7.1.33-fpm-buster`, `7.1-fpm-buster`, `7.1.33-fpm`, `7.1-fpm`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/buster/fpm/Dockerfile)
--	[`7.1.33-zts-buster`, `7.1-zts-buster`, `7.1.33-zts`, `7.1-zts`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/buster/zts/Dockerfile)
--	[`7.1.33-cli-stretch`, `7.1-cli-stretch`, `7.1.33-stretch`, `7.1-stretch`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/stretch/cli/Dockerfile)
--	[`7.1.33-apache-stretch`, `7.1-apache-stretch`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/stretch/apache/Dockerfile)
--	[`7.1.33-fpm-stretch`, `7.1-fpm-stretch`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/stretch/fpm/Dockerfile)
--	[`7.1.33-zts-stretch`, `7.1-zts-stretch`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/stretch/zts/Dockerfile)
--	[`7.1.33-cli-alpine3.10`, `7.1-cli-alpine3.10`, `7.1.33-alpine3.10`, `7.1-alpine3.10`, `7.1.33-cli-alpine`, `7.1-cli-alpine`, `7.1.33-alpine`, `7.1-alpine`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/alpine3.10/cli/Dockerfile)
--	[`7.1.33-fpm-alpine3.10`, `7.1-fpm-alpine3.10`, `7.1.33-fpm-alpine`, `7.1-fpm-alpine`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/alpine3.10/fpm/Dockerfile)
--	[`7.1.33-zts-alpine3.10`, `7.1-zts-alpine3.10`, `7.1.33-zts-alpine`, `7.1-zts-alpine`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/alpine3.10/zts/Dockerfile)
--	[`7.1.33-cli-alpine3.9`, `7.1-cli-alpine3.9`, `7.1.33-alpine3.9`, `7.1-alpine3.9`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/alpine3.9/cli/Dockerfile)
--	[`7.1.33-fpm-alpine3.9`, `7.1-fpm-alpine3.9`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/alpine3.9/fpm/Dockerfile)
--	[`7.1.33-zts-alpine3.9`, `7.1-zts-alpine3.9`](https://github.com/docker-library/php/blob/15ecc4fbcb11b7963de2a81462c825610b6ecefd/7.1/alpine3.9/zts/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/docker-library/php/issues](https://github.com/docker-library/php/issues)
 
 -	**Maintained by**:  
 	[the Docker Community](https://github.com/docker-library/php)
 
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`7.4.5-cli-buster`, `7.4-cli-buster`, `7-cli-buster`, `cli-buster`, `7.4.5-buster`, `7.4-buster`, `7-buster`, `buster`, `7.4.5-cli`, `7.4-cli`, `7-cli`, `cli`, `7.4.5`, `7.4`, `7`, `latest`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.4/buster/cli/Dockerfile)
+-	[`7.4.5-apache-buster`, `7.4-apache-buster`, `7-apache-buster`, `apache-buster`, `7.4.5-apache`, `7.4-apache`, `7-apache`, `apache`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.4/buster/apache/Dockerfile)
+-	[`7.4.5-fpm-buster`, `7.4-fpm-buster`, `7-fpm-buster`, `fpm-buster`, `7.4.5-fpm`, `7.4-fpm`, `7-fpm`, `fpm`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.4/buster/fpm/Dockerfile)
+-	[`7.4.5-zts-buster`, `7.4-zts-buster`, `7-zts-buster`, `zts-buster`, `7.4.5-zts`, `7.4-zts`, `7-zts`, `zts`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.4/buster/zts/Dockerfile)
+-	[`7.4.5-cli-alpine3.11`, `7.4-cli-alpine3.11`, `7-cli-alpine3.11`, `cli-alpine3.11`, `7.4.5-alpine3.11`, `7.4-alpine3.11`, `7-alpine3.11`, `alpine3.11`, `7.4.5-cli-alpine`, `7.4-cli-alpine`, `7-cli-alpine`, `cli-alpine`, `7.4.5-alpine`, `7.4-alpine`, `7-alpine`, `alpine`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.4/alpine3.11/cli/Dockerfile)
+-	[`7.4.5-fpm-alpine3.11`, `7.4-fpm-alpine3.11`, `7-fpm-alpine3.11`, `fpm-alpine3.11`, `7.4.5-fpm-alpine`, `7.4-fpm-alpine`, `7-fpm-alpine`, `fpm-alpine`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.4/alpine3.11/fpm/Dockerfile)
+-	[`7.4.5-zts-alpine3.11`, `7.4-zts-alpine3.11`, `7-zts-alpine3.11`, `zts-alpine3.11`, `7.4.5-zts-alpine`, `7.4-zts-alpine`, `7-zts-alpine`, `zts-alpine`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.4/alpine3.11/zts/Dockerfile)
+-	[`7.4.5-cli-alpine3.10`, `7.4-cli-alpine3.10`, `7-cli-alpine3.10`, `cli-alpine3.10`, `7.4.5-alpine3.10`, `7.4-alpine3.10`, `7-alpine3.10`, `alpine3.10`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.4/alpine3.10/cli/Dockerfile)
+-	[`7.4.5-fpm-alpine3.10`, `7.4-fpm-alpine3.10`, `7-fpm-alpine3.10`, `fpm-alpine3.10`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.4/alpine3.10/fpm/Dockerfile)
+-	[`7.4.5-zts-alpine3.10`, `7.4-zts-alpine3.10`, `7-zts-alpine3.10`, `zts-alpine3.10`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.4/alpine3.10/zts/Dockerfile)
+-	[`7.3.17-cli-buster`, `7.3-cli-buster`, `7.3.17-buster`, `7.3-buster`, `7.3.17-cli`, `7.3-cli`, `7.3.17`, `7.3`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/buster/cli/Dockerfile)
+-	[`7.3.17-apache-buster`, `7.3-apache-buster`, `7.3.17-apache`, `7.3-apache`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/buster/apache/Dockerfile)
+-	[`7.3.17-fpm-buster`, `7.3-fpm-buster`, `7.3.17-fpm`, `7.3-fpm`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/buster/fpm/Dockerfile)
+-	[`7.3.17-zts-buster`, `7.3-zts-buster`, `7.3.17-zts`, `7.3-zts`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/buster/zts/Dockerfile)
+-	[`7.3.17-cli-stretch`, `7.3-cli-stretch`, `7.3.17-stretch`, `7.3-stretch`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/stretch/cli/Dockerfile)
+-	[`7.3.17-apache-stretch`, `7.3-apache-stretch`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/stretch/apache/Dockerfile)
+-	[`7.3.17-fpm-stretch`, `7.3-fpm-stretch`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/stretch/fpm/Dockerfile)
+-	[`7.3.17-zts-stretch`, `7.3-zts-stretch`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/stretch/zts/Dockerfile)
+-	[`7.3.17-cli-alpine3.11`, `7.3-cli-alpine3.11`, `7.3.17-alpine3.11`, `7.3-alpine3.11`, `7.3.17-cli-alpine`, `7.3-cli-alpine`, `7.3.17-alpine`, `7.3-alpine`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/alpine3.11/cli/Dockerfile)
+-	[`7.3.17-fpm-alpine3.11`, `7.3-fpm-alpine3.11`, `7.3.17-fpm-alpine`, `7.3-fpm-alpine`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/alpine3.11/fpm/Dockerfile)
+-	[`7.3.17-zts-alpine3.11`, `7.3-zts-alpine3.11`, `7.3.17-zts-alpine`, `7.3-zts-alpine`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/alpine3.11/zts/Dockerfile)
+-	[`7.3.17-cli-alpine3.10`, `7.3-cli-alpine3.10`, `7.3.17-alpine3.10`, `7.3-alpine3.10`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/alpine3.10/cli/Dockerfile)
+-	[`7.3.17-fpm-alpine3.10`, `7.3-fpm-alpine3.10`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/alpine3.10/fpm/Dockerfile)
+-	[`7.3.17-zts-alpine3.10`, `7.3-zts-alpine3.10`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.3/alpine3.10/zts/Dockerfile)
+-	[`7.2.30-cli-buster`, `7.2-cli-buster`, `7.2.30-buster`, `7.2-buster`, `7.2.30-cli`, `7.2-cli`, `7.2.30`, `7.2`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/buster/cli/Dockerfile)
+-	[`7.2.30-apache-buster`, `7.2-apache-buster`, `7.2.30-apache`, `7.2-apache`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/buster/apache/Dockerfile)
+-	[`7.2.30-fpm-buster`, `7.2-fpm-buster`, `7.2.30-fpm`, `7.2-fpm`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/buster/fpm/Dockerfile)
+-	[`7.2.30-zts-buster`, `7.2-zts-buster`, `7.2.30-zts`, `7.2-zts`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/buster/zts/Dockerfile)
+-	[`7.2.30-cli-stretch`, `7.2-cli-stretch`, `7.2.30-stretch`, `7.2-stretch`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/stretch/cli/Dockerfile)
+-	[`7.2.30-apache-stretch`, `7.2-apache-stretch`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/stretch/apache/Dockerfile)
+-	[`7.2.30-fpm-stretch`, `7.2-fpm-stretch`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/stretch/fpm/Dockerfile)
+-	[`7.2.30-zts-stretch`, `7.2-zts-stretch`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/stretch/zts/Dockerfile)
+-	[`7.2.30-cli-alpine3.11`, `7.2-cli-alpine3.11`, `7.2.30-alpine3.11`, `7.2-alpine3.11`, `7.2.30-cli-alpine`, `7.2-cli-alpine`, `7.2.30-alpine`, `7.2-alpine`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/alpine3.11/cli/Dockerfile)
+-	[`7.2.30-fpm-alpine3.11`, `7.2-fpm-alpine3.11`, `7.2.30-fpm-alpine`, `7.2-fpm-alpine`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/alpine3.11/fpm/Dockerfile)
+-	[`7.2.30-zts-alpine3.11`, `7.2-zts-alpine3.11`, `7.2.30-zts-alpine`, `7.2-zts-alpine`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/alpine3.11/zts/Dockerfile)
+-	[`7.2.30-cli-alpine3.10`, `7.2-cli-alpine3.10`, `7.2.30-alpine3.10`, `7.2-alpine3.10`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/alpine3.10/cli/Dockerfile)
+-	[`7.2.30-fpm-alpine3.10`, `7.2-fpm-alpine3.10`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/alpine3.10/fpm/Dockerfile)
+-	[`7.2.30-zts-alpine3.10`, `7.2-zts-alpine3.10`](https://github.com/docker-library/php/blob/b3532e478a5296d570fc85a76d10ae8d3b488a9e/7.2/alpine3.10/zts/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/docker-library/php/issues](https://github.com/docker-library/php/issues)
+
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
-	[`amd64`](https://hub.docker.com/r/amd64/php/), [`arm32v5`](https://hub.docker.com/r/arm32v5/php/), [`arm32v6`](https://hub.docker.com/r/arm32v6/php/), [`arm32v7`](https://hub.docker.com/r/arm32v7/php/), [`arm64v8`](https://hub.docker.com/r/arm64v8/php/), [`i386`](https://hub.docker.com/r/i386/php/), [`ppc64le`](https://hub.docker.com/r/ppc64le/php/), [`s390x`](https://hub.docker.com/r/s390x/php/)
+	[`amd64`](https://hub.docker.com/r/amd64/php/), [`arm32v5`](https://hub.docker.com/r/arm32v5/php/), [`arm32v6`](https://hub.docker.com/r/arm32v6/php/), [`arm32v7`](https://hub.docker.com/r/arm32v7/php/), [`arm64v8`](https://hub.docker.com/r/arm64v8/php/), [`i386`](https://hub.docker.com/r/i386/php/), [`mips64le`](https://hub.docker.com/r/mips64le/php/), [`ppc64le`](https://hub.docker.com/r/ppc64le/php/), [`s390x`](https://hub.docker.com/r/s390x/php/)
 
 -	**Published image artifact details**:  
 	[repo-info repo's `repos/php/` directory](https://github.com/docker-library/repo-info/blob/master/repos/php) ([history](https://github.com/docker-library/repo-info/commits/master/repos/php))  
@@ -95,7 +86,7 @@ WARNING:
 
 PHP is a server-side scripting language designed for web development, but which can also be used as a general-purpose programming language. PHP can be added to straight HTML or it can be used with a variety of templating engines and web frameworks. PHP code is usually processed by an interpreter, which is either implemented as a native module on the web-server or as a common gateway interface (CGI).
 
-> [wikipedia.org/wiki/PHP](http://en.wikipedia.org/wiki/PHP)
+> [wikipedia.org/wiki/PHP](https://en.wikipedia.org/wiki/PHP)
 
 ![logo](https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/php/logo.png)
 
@@ -104,7 +95,7 @@ PHP is a server-side scripting language designed for web development, but which 
 ### Create a `Dockerfile` in your PHP project
 
 ```dockerfile
-FROM php:7.2-cli
+FROM php:7.4-cli
 COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp
 CMD [ "php", "./your-script.php" ]
@@ -122,7 +113,7 @@ $ docker run -it --rm --name my-running-app my-php-app
 For many simple, single file projects, you may find it inconvenient to write a complete `Dockerfile`. In such cases, you can run a PHP script by using the PHP Docker image directly:
 
 ```console
-$ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp php:7.2-cli php your-script.php
+$ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/myapp -w /usr/src/myapp php:7.4-cli php your-script.php
 ```
 
 ## How to install more PHP extensions
@@ -134,7 +125,7 @@ We provide the helper scripts `docker-php-ext-configure`, `docker-php-ext-instal
 In order to keep the images smaller, PHP's source is kept in a compressed tar file. To facilitate linking of PHP's source with any extension, we also provide the helper script `docker-php-source` to easily extract the tar or delete the extracted source. Note: if you do use `docker-php-source` to extract the source, be sure to delete it in the same layer of the docker image.
 
 ```Dockerfile
-FROM php:7.2-cli
+FROM php:7.4-cli
 RUN docker-php-source extract \
 	# do important things \
 	&& docker-php-source delete
@@ -142,31 +133,36 @@ RUN docker-php-source extract \
 
 ### PHP Core Extensions
 
-For example, if you want to have a PHP-FPM image with `iconv` and `gd` extensions, you can inherit the base image that you like, and write your own `Dockerfile` like this:
+For example, if you want to have a PHP-FPM image with the `gd` extension, you can inherit the base image that you like, and write your own `Dockerfile` like this:
 
 ```dockerfile
-FROM php:7.2-fpm
+FROM php:7.4-fpm
 RUN apt-get update && apt-get install -y \
 		libfreetype6-dev \
 		libjpeg62-turbo-dev \
 		libpng-dev \
-	&& docker-php-ext-install -j$(nproc) iconv \
-	&& docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ \
+	&& docker-php-ext-configure gd --with-freetype --with-jpeg \
 	&& docker-php-ext-install -j$(nproc) gd
 ```
 
 Remember, you must install dependencies for your extensions manually. If an extension needs custom `configure` arguments, you can use the `docker-php-ext-configure` script like this example. There is no need to run `docker-php-source` manually in this case, since that is handled by the `configure` and `install` scripts.
 
-See ["Dockerizing Compiled Software"](https://tianon.xyz/post/2017/12/26/dockerize-compiled-software.html) for a description of the technique Tianon uses for determining the necessary build-time dependencies for any bit of software (which applies directly to compiling PHP extensions).
+If you are having difficulty figuring out which Debian or Alpine packages need to be installed before `docker-php-ext-install`, then have a look at [the `install-php-extensions` project](https://github.com/mlocati/docker-php-extension-installer). This script builds upon the `docker-php-ext-*` scripts and simplifies the installation of PHP extensions by automatically adding and removing Debian (apt) and Alpine (apk) packages. For example, to install the GD extension you simply have to run `install-php-extensions gd`. This tool is contributed by community members and is not included in the images, please refer to their Git repository for installation, usage, and issues.
+
+See also ["Dockerizing Compiled Software"](https://tianon.xyz/post/2017/12/26/dockerize-compiled-software.html) for a description of the technique Tianon uses for determining the necessary build-time dependencies for any bit of software (which applies directly to compiling PHP extensions).
+
+### Default extensions
+
+Some extensions are compiled by default. This depends on the PHP version you are using. Run `php -m` in the container to get a list for your specific version.
 
 ### PECL extensions
 
 Some extensions are not provided with the PHP source, but are instead available through [PECL](https://pecl.php.net/). To install a PECL extension, use `pecl install` to download and compile it, then use `docker-php-ext-enable` to enable it:
 
 ```dockerfile
-FROM php:7.2-cli
-RUN pecl install redis-4.0.1 \
-	&& pecl install xdebug-2.6.0 \
+FROM php:7.4-cli
+RUN pecl install redis-5.1.1 \
+	&& pecl install xdebug-2.8.1 \
 	&& docker-php-ext-enable redis xdebug
 ```
 
@@ -179,11 +175,11 @@ RUN apt-get update && apt-get install -y libmemcached-dev zlib1g-dev \
 
 It is *strongly* recommended that users use an explicit version number in their `pecl install` invocations to ensure proper PHP version compatibility (PECL does not check the PHP version compatiblity when choosing a version of the extension to install, but does when trying to install it).
 
-For example, `memcached-2.2.0` has no PHP version constraints (https://pecl.php.net/package/memcached/2.2.0), but `memcached-3.0.4` requires PHP 7.0.0 or newer (https://pecl.php.net/package/memcached/3.0.4). When doing `pecl install memcached` (no specific version) on PHP 5.6, PECL will try to install the latest release and fail.
+For example, `memcached-2.2.0` has no PHP version constraints (https://pecl.php.net/package/memcached/2.2.0), but `memcached-3.1.4` requires PHP 7.0.0 or newer (https://pecl.php.net/package/memcached/3.1.4). When doing `pecl install memcached` (no specific version) on PHP 5.6, PECL will try to install the latest release and fail.
 
 Beyond the compatibility issue, it's also a good practice to ensure you know when your dependencies receive updates and can control those updates directly.
 
-Unlike PHP core extensions, PECL extensions should be installed in series to fail properly if something went wrong. Otherwise errors are just skipped by PECL. For example, `pecl install memcached-2.2.0 && pecl install redis-2.2.8` instead of `pecl install memcached-2.2.0 redis-2.2.8`. However, `docker-php-ext-enable memcached redis` is fine to be all in one command.
+Unlike PHP core extensions, PECL extensions should be installed in series to fail properly if something went wrong. Otherwise errors are just skipped by PECL. For example, `pecl install memcached-3.1.4 && pecl install redis-5.1.1` instead of `pecl install memcached-3.1.4 redis-5.1.1`. However, `docker-php-ext-enable memcached redis` is fine to be all in one command.
 
 ### Other extensions
 
@@ -252,7 +248,7 @@ The default config can be customized by copying configuration files into the `$P
 ### Example
 
 ```dockerfile
-FROM php:7.2-fpm-alpine
+FROM php:7.4-fpm-alpine
 
 # Use the default production configuration
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"

@@ -14,24 +14,27 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`1-stretch`, `1.39-stretch`, `1.39.0-stretch`, `stretch`](https://github.com/rust-lang-nursery/docker-rust/blob/8d0f25416858e2c1f59511a15c2bd0445b402caa/1.39.0/stretch/Dockerfile)
--	[`1-slim-stretch`, `1.39-slim-stretch`, `1.39.0-slim-stretch`, `slim-stretch`](https://github.com/rust-lang-nursery/docker-rust/blob/8d0f25416858e2c1f59511a15c2bd0445b402caa/1.39.0/stretch/slim/Dockerfile)
--	[`1-buster`, `1.39-buster`, `1.39.0-buster`, `buster`, `1`, `1.39`, `1.39.0`, `latest`](https://github.com/rust-lang-nursery/docker-rust/blob/8d0f25416858e2c1f59511a15c2bd0445b402caa/1.39.0/buster/Dockerfile)
--	[`1-slim-buster`, `1.39-slim-buster`, `1.39.0-slim-buster`, `slim-buster`, `1-slim`, `1.39-slim`, `1.39.0-slim`, `slim`](https://github.com/rust-lang-nursery/docker-rust/blob/8d0f25416858e2c1f59511a15c2bd0445b402caa/1.39.0/buster/slim/Dockerfile)
--	[`1-alpine3.10`, `1.39-alpine3.10`, `1.39.0-alpine3.10`, `alpine3.10`, `1-alpine`, `1.39-alpine`, `1.39.0-alpine`, `alpine`](https://github.com/rust-lang-nursery/docker-rust/blob/8d0f25416858e2c1f59511a15c2bd0445b402caa/1.39.0/alpine3.10/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/rust-lang/docker-rust/issues](https://github.com/rust-lang/docker-rust/issues)
 
 -	**Maintained by**:  
 	[the Rust Project developers](https://github.com/rust-lang/docker-rust)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`1-stretch`, `1.43-stretch`, `1.43.1-stretch`, `stretch`](https://github.com/rust-lang-nursery/docker-rust/blob/009cc0a821ff773d54875350312731ed490d5cce/1.43.1/stretch/Dockerfile)
+-	[`1-slim-stretch`, `1.43-slim-stretch`, `1.43.1-slim-stretch`, `slim-stretch`](https://github.com/rust-lang-nursery/docker-rust/blob/009cc0a821ff773d54875350312731ed490d5cce/1.43.1/stretch/slim/Dockerfile)
+-	[`1-buster`, `1.43-buster`, `1.43.1-buster`, `buster`, `1`, `1.43`, `1.43.1`, `latest`](https://github.com/rust-lang-nursery/docker-rust/blob/009cc0a821ff773d54875350312731ed490d5cce/1.43.1/buster/Dockerfile)
+-	[`1-slim-buster`, `1.43-slim-buster`, `1.43.1-slim-buster`, `slim-buster`, `1-slim`, `1.43-slim`, `1.43.1-slim`, `slim`](https://github.com/rust-lang-nursery/docker-rust/blob/009cc0a821ff773d54875350312731ed490d5cce/1.43.1/buster/slim/Dockerfile)
+-	[`1-alpine3.10`, `1.43-alpine3.10`, `1.43.1-alpine3.10`, `alpine3.10`](https://github.com/rust-lang-nursery/docker-rust/blob/009cc0a821ff773d54875350312731ed490d5cce/1.43.1/alpine3.10/Dockerfile)
+-	[`1-alpine3.11`, `1.43-alpine3.11`, `1.43.1-alpine3.11`, `alpine3.11`, `1-alpine`, `1.43-alpine`, `1.43.1-alpine`, `alpine`](https://github.com/rust-lang-nursery/docker-rust/blob/009cc0a821ff773d54875350312731ed490d5cce/1.43.1/alpine3.11/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/rust-lang/docker-rust/issues](https://github.com/rust-lang/docker-rust/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/rust/), [`arm32v7`](https://hub.docker.com/r/arm32v7/rust/), [`arm64v8`](https://hub.docker.com/r/arm64v8/rust/), [`i386`](https://hub.docker.com/r/i386/rust/)
@@ -78,6 +81,26 @@ Then, build and run the Docker image:
 $ docker build -t my-rust-app .
 $ docker run -it --rm --name my-running-app my-rust-app
 ```
+
+This creates an image that has all of the rust tooling for the image, which is 1.8gb. If you just want the compiled application:
+
+```dockerfile
+FROM rust:1.40 as builder
+WORKDIR /usr/src/myapp
+COPY . .
+RUN cargo install --path .
+
+FROM debian:buster-slim
+RUN apt-get update && apt-get install -y extra-runtime-dependencies
+COPY --from=builder /usr/local/cargo/bin/myapp /usr/local/bin/myapp
+CMD ["myapp"]
+```
+
+Note: Some shared libraries may need to be installed as shown in the installation of the `extra-runtime-dependencies` line above.
+
+This method will create an image that is less than 200mb. If you switch to using the Alpine-based rust image, you might be able to save another 60mb.
+
+See https://docs.docker.com/develop/develop-images/multistage-build/ for more information.
 
 ## Compile your app inside the Docker container
 

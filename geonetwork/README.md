@@ -14,23 +14,25 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`3.6.0`, `3.6`](https://github.com/geonetwork/docker-geonetwork/blob/e249c6031a55559392204a2c3ef8e8f8d11545a5/3.6.0/Dockerfile)
--	[`3.6.0-postgres`, `3.6-postgres`](https://github.com/geonetwork/docker-geonetwork/blob/29aa73c582e074010412628d45ea22074b8e7e74/3.6.0/postgres/Dockerfile)
--	[`3.8.2`, `3.8`, `latest`](https://github.com/geonetwork/docker-geonetwork/blob/35a9e428fc697b1fd898bd20c3303ee734c317e6/3.8.2/Dockerfile)
--	[`3.8.2-postgres`, `3.8-postgres`, `postgres`](https://github.com/geonetwork/docker-geonetwork/blob/35a9e428fc697b1fd898bd20c3303ee734c317e6/3.8.2/postgres/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/geonetwork/docker-geonetwork/issues](https://github.com/geonetwork/docker-geonetwork/issues)
 
 -	**Maintained by**:  
 	[GeoNetwork opensource](https://github.com/geonetwork/docker-geonetwork)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`3.10.2`, `3.10`, `latest`](https://github.com/geonetwork/docker-geonetwork/blob/f81b111fbe3d765ee56f61c5474099764ee07004/3.10.2/Dockerfile)
+-	[`3.10.2-postgres`, `3.10-postgres`, `postgres`](https://github.com/geonetwork/docker-geonetwork/blob/f81b111fbe3d765ee56f61c5474099764ee07004/3.10.2/postgres/Dockerfile)
+-	[`3.8.3`, `3.8`](https://github.com/geonetwork/docker-geonetwork/blob/af81a4ff8f592d27b4911ad20d569379864ee85f/3.8.3/Dockerfile)
+-	[`3.8.3-postgres`, `3.8-postgres`](https://github.com/geonetwork/docker-geonetwork/blob/af81a4ff8f592d27b4911ad20d569379864ee85f/3.8.3/postgres/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/geonetwork/docker-geonetwork/issues](https://github.com/geonetwork/docker-geonetwork/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/geonetwork/)

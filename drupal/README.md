@@ -14,31 +14,33 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`8.7.8-apache`, `8.7-apache`, `8-apache`, `apache`, `8.7.8`, `8.7`, `8`, `latest`](https://github.com/docker-library/drupal/blob/47c6c3f965313a60930e0875867ef9e4cba46f73/8.7/apache/Dockerfile)
--	[`8.7.8-fpm`, `8.7-fpm`, `8-fpm`, `fpm`](https://github.com/docker-library/drupal/blob/47c6c3f965313a60930e0875867ef9e4cba46f73/8.7/fpm/Dockerfile)
--	[`8.7.8-fpm-alpine`, `8.7-fpm-alpine`, `8-fpm-alpine`, `fpm-alpine`](https://github.com/docker-library/drupal/blob/47c6c3f965313a60930e0875867ef9e4cba46f73/8.7/fpm-alpine/Dockerfile)
--	[`8.6.17-apache`, `8.6-apache`, `8.6.17`, `8.6`](https://github.com/docker-library/drupal/blob/b05d762e4fa8ff852649ed6673c5653d9bb18401/8.6/apache/Dockerfile)
--	[`8.6.17-fpm`, `8.6-fpm`](https://github.com/docker-library/drupal/blob/b05d762e4fa8ff852649ed6673c5653d9bb18401/8.6/fpm/Dockerfile)
--	[`8.6.17-fpm-alpine`, `8.6-fpm-alpine`](https://github.com/docker-library/drupal/blob/f52125f5b83b26f488977abe9cfa8adb68a9f706/8.6/fpm-alpine/Dockerfile)
--	[`7.67-apache`, `7-apache`, `7.67`, `7`](https://github.com/docker-library/drupal/blob/b05d762e4fa8ff852649ed6673c5653d9bb18401/7/apache/Dockerfile)
--	[`7.67-fpm`, `7-fpm`](https://github.com/docker-library/drupal/blob/b05d762e4fa8ff852649ed6673c5653d9bb18401/7/fpm/Dockerfile)
--	[`7.67-fpm-alpine`, `7-fpm-alpine`](https://github.com/docker-library/drupal/blob/f52125f5b83b26f488977abe9cfa8adb68a9f706/7/fpm-alpine/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/docker-library/drupal/issues](https://github.com/docker-library/drupal/issues)
 
 -	**Maintained by**:  
 	[the Docker Community](https://github.com/docker-library/drupal) (*not* the Drupal Community or the Drupal Security Team)
 
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`8.8.5-apache`, `8.8-apache`, `8-apache`, `apache`, `8.8.5`, `8.8`, `8`, `latest`](https://github.com/docker-library/drupal/blob/189686e109917d7bffaf28024be7d6d28495f57d/8.8/apache/Dockerfile)
+-	[`8.8.5-fpm`, `8.8-fpm`, `8-fpm`, `fpm`](https://github.com/docker-library/drupal/blob/189686e109917d7bffaf28024be7d6d28495f57d/8.8/fpm/Dockerfile)
+-	[`8.8.5-fpm-alpine`, `8.8-fpm-alpine`, `8-fpm-alpine`, `fpm-alpine`](https://github.com/docker-library/drupal/blob/189686e109917d7bffaf28024be7d6d28495f57d/8.8/fpm-alpine/Dockerfile)
+-	[`8.7.13-apache`, `8.7-apache`, `8.7.13`, `8.7`](https://github.com/docker-library/drupal/blob/72a76c53c4f4b0c3f9780bbdb8a12f8b94f73c1b/8.7/apache/Dockerfile)
+-	[`8.7.13-fpm`, `8.7-fpm`](https://github.com/docker-library/drupal/blob/72a76c53c4f4b0c3f9780bbdb8a12f8b94f73c1b/8.7/fpm/Dockerfile)
+-	[`8.7.13-fpm-alpine`, `8.7-fpm-alpine`](https://github.com/docker-library/drupal/blob/72a76c53c4f4b0c3f9780bbdb8a12f8b94f73c1b/8.7/fpm-alpine/Dockerfile)
+-	[`7.69-apache`, `7-apache`, `7.69`, `7`](https://github.com/docker-library/drupal/blob/1ec9ec0be11ef631014202064adcc402b834717d/7/apache/Dockerfile)
+-	[`7.69-fpm`, `7-fpm`](https://github.com/docker-library/drupal/blob/1ec9ec0be11ef631014202064adcc402b834717d/7/fpm/Dockerfile)
+-	[`7.69-fpm-alpine`, `7-fpm-alpine`](https://github.com/docker-library/drupal/blob/1ec9ec0be11ef631014202064adcc402b834717d/7/fpm-alpine/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/docker-library/drupal/issues](https://github.com/docker-library/drupal/issues)
+
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
-	[`amd64`](https://hub.docker.com/r/amd64/drupal/), [`arm32v5`](https://hub.docker.com/r/arm32v5/drupal/), [`arm32v6`](https://hub.docker.com/r/arm32v6/drupal/), [`arm32v7`](https://hub.docker.com/r/arm32v7/drupal/), [`arm64v8`](https://hub.docker.com/r/arm64v8/drupal/), [`i386`](https://hub.docker.com/r/i386/drupal/), [`ppc64le`](https://hub.docker.com/r/ppc64le/drupal/)
+	[`amd64`](https://hub.docker.com/r/amd64/drupal/), [`arm32v5`](https://hub.docker.com/r/arm32v5/drupal/), [`arm32v6`](https://hub.docker.com/r/arm32v6/drupal/), [`arm32v7`](https://hub.docker.com/r/arm32v7/drupal/), [`arm64v8`](https://hub.docker.com/r/arm64v8/drupal/), [`i386`](https://hub.docker.com/r/i386/drupal/), [`ppc64le`](https://hub.docker.com/r/ppc64le/drupal/), [`s390x`](https://hub.docker.com/r/s390x/drupal/)
 
 -	**Published image artifact details**:  
 	[repo-info repo's `repos/drupal/` directory](https://github.com/docker-library/repo-info/blob/master/repos/drupal) ([history](https://github.com/docker-library/repo-info/commits/master/repos/drupal))  
@@ -81,23 +83,39 @@ When first accessing the webserver provided by this image, it will go through a 
 
 ## MySQL
 
+For using Drupal with a MySQL database you'll want to run a [MySQL](https://hub.docker.com/_/mysql/) container and configure it using environment variables for `MYSQL_DATABASE`, `MYSQL_USER`, `MYSQL_PASSWORD`, and `MYSQL_ROOT_PASSWORD`
+
 ```console
-$ docker run --name some-drupal --network some-network -d drupal
+$ docker run -d --name some-mysql --network some-network \
+	-e MYSQL_DATABASE=drupal \
+	-e MYSQL_USER=user \
+	-e MYSQL_PASSWORD=password \
+	-e MYSQL_ROOT_PASSWORD=password \
+mysql:5.7
 ```
 
--	Database type: `MySQL, MariaDB, or equivalent`
+In Drupal's "set up database" step on the web installation walkthrough enter the values for the environment variables you provided
+
 -	Database name/username/password: `<details for accessing your MySQL instance>` (`MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_DATABASE`; see environment variables in the description for [`mysql`](https://hub.docker.com/_/mysql/))
--	ADVANCED OPTIONS; Database host: `some-mysql` (for using the DNS entry added by `--network` to access the MySQL container)
+-	ADVANCED OPTIONS; Database host: `some-mysql` (Containers on the same [docker-network](https://docs.docker.com/v17.09/engine/userguide/networking/) are routable by their container-name)
 
 ## PostgreSQL
 
+For using Drupal with a PostgreSQL database you'll want to run a [Postgres](https://hub.docker.com/_/postgres) container and configure it using environment variables for `POSTGRES_DB`, `POSTGRES_USER`, and `POSTGRES_PASSWORD`
+
 ```console
-$ docker run --name some-drupal --network some-network -d drupal
+$ docker run -d --name some-postgres --network some-network \
+	-e POSTGRES_DB=drupal \
+	-e POSTGRES_USER=user \
+	-e POSTGRES_PASSWORD=pass \
+postgres:11
 ```
 
+In Drupal's "set up database" step on the web installation walkthrough enter the values for the environment variables you provided
+
 -	Database type: `PostgreSQL`
--	Database name/username/password: `<details for accessing your PostgreSQL instance>` (`POSTGRES_USER`, `POSTGRES_PASSWORD`; see environment variables in the description for [`postgres`](https://hub.docker.com/_/postgres/))
--	ADVANCED OPTIONS; Database host: `some-postgres` (for using the DNS entry added by `--network` to access the PostgreSQL container)
+-	Database name/username/password: `<details for accessing your PostgreSQL instance>` (`POSTGRES_USER`, `POSTGRES_PASSWORD`, `POSTGRES_DB`; see environment variables in the description for [`postgres`](https://hub.docker.com/_/postgres/))
+-	ADVANCED OPTIONS; Database host: `some-postgres` (Containers on the same [docker-network](https://docs.docker.com/v17.09/engine/userguide/networking/) are routable by their container-name)
 
 ## Volumes
 

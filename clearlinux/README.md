@@ -14,20 +14,22 @@ WARNING:
 
 -->
 
-# Supported tags and respective `Dockerfile` links
-
--	[`latest`, `base`](https://github.com/clearlinux/docker-brew-clearlinux/blob/e1f11cec90965236e2e92ac59eebb66750da92d7/Dockerfile)
-
 # Quick reference
-
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
--	**Where to file issues**:  
-	[https://github.com/clearlinux/docker-brew-clearlinux/issues](https://github.com/clearlinux/docker-brew-clearlinux/issues)
 
 -	**Maintained by**:  
 	[Intel Corporation](https://github.com/clearlinux/docker-brew-clearlinux)
+
+-	**Where to get help**:  
+	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](http://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
+
+# Supported tags and respective `Dockerfile` links
+
+-	[`latest`, `base`](https://github.com/clearlinux/docker-brew-clearlinux/blob/2652e3ba32c1586197236d398f9943b04590de70/Dockerfile)
+
+# Quick reference (cont.)
+
+-	**Where to file issues**:  
+	[https://github.com/clearlinux/docker-brew-clearlinux/issues](https://github.com/clearlinux/docker-brew-clearlinux/issues)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
 	[`amd64`](https://hub.docker.com/r/amd64/clearlinux/)
